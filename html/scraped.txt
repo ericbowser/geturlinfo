@@ -1,0 +1,1232 @@
+https://hackaday.io/project/10649-boxespy
+https://www.gnu.org/licenses/gpl-3.0.en.html
+https://www.python.org/
+https://florianfesti.github.io/boxes/html/usermanual.html
+https://hackaday.io/project/10649-boxespy
+https://florianfesti.github.io/boxes/html/index.html
+https://github.com/florianfesti/boxes
+Create boxes and more with a laser cutter!,
+
+        Boxes.py is an Open Source box generator written in Python. It features both finished parametrized generators as well as a Python API for writing your own. It features finger and (flat) dovetail joints, flex cuts, holes and slots for screws, hinges, gears, pulleys and much more.
+,
+
+
+Boxes.py
+Create boxes and more with a laser cutter!
+
+
+        Boxes.py is an Open Source box generator written in Python. It features both finished parametrized generators as well as a Python API for writing your own. It features finger and (flat) dovetail joints, flex cuts, holes and slots for screws, hinges, gears, pulleys and much more.
+
+
+
+
+
+
+
+
+
+
+
+
+🔍 
+
+
+
+Gallery
+Menu
+
+
+
+
+
+
+    Boxes
+
+  
+   
+     ABox - A simple Box
+     AngledBox - Box with both ends cornered
+     BasedBox - Fully closed box on a base
+     BayonetBox - Round box made from layers with twist on top
+     BrickSorter - Stackable nestable sorting sieve for bricks
+     CardBox - Box for storage of playing cards, with versatile options
+     ClosedBox - Fully closed box
+     Console - Console with slanted panel
+     Console2 - Console with slanted panel and service hatches
+     DiceBox - Box with lid and integraded hinge for storing dice
+     DisplayCase - Fully closed box intended to be cut from transparent acrylics and to serve as a display case.
+     ElectronicsBox - Closed box with screw on top and mounting holes
+     EuroRackSkiff - 3U Height case with adjustable width and height and included rails
+     HalfBox - Configurable half of a box which can be: a bookend, a hanging shelf, an angle clamping jig, ...
+     HingeBox - Box with lid attached by cabinet hinges
+     IntegratedHingeBox - Box with lid and integraded hinge
+     Keypad - Generator for keypads with mechanical switches.
+     NotesHolder - Box for holding a stack of paper, coasters etc
+     OpenBox - Box with top and front open
+     PirateChest - Box with polygon lid with chest hinges.
+     Rack10Box - Closed box with screw on top for mounting in a 10" rack.
+     Rack19Box - Closed box with screw on top for mounting in a 19" rack.
+     Rack19HalfWidth - Half width 19inch rack unit for musical equipment.
+     RackBox - Closed box with screw on top and mounting holes
+     RegularBox - Box with regular polygon as base
+     RegularStarBox - Regular polygon boxes that form a star when closed
+     SideDoorHousing - Box with service hatches on either one or both of the sides that are locked with latches
+     SideHingeBox - Box, with an hinge that does not protrude from the back of the box, and a latch.
+     SlidingDrawer - Sliding drawer box
+     TwoPiece - A two piece box where top slips over the bottom half to form the enclosure.
+     UnevenHeightBox - Box with different height in each corner
+     UniversalBox - Box with various options for different styles and lids
+   
+  
+
+
+    Boxes with flex
+
+  
+   
+     BreadBox - A BreadBox with a gliding door
+     DoubleFlexDoorBox - Box with two part lid with living hinges and round corners
+     FlexBook - Box with living hinge styled after a book.
+     FlexBox - Box with living hinge and round corners
+     FlexBox2 - Box with living hinge and top corners rounded
+     FlexBox3 - Box with living hinge
+     FlexBox4 - Box with living hinge and left corners rounded
+     FlexBox5 - Box with living hinge and round corners
+     HeartBox - Box in the form of a heart
+     RoundedBox - Box with vertical edges rounded
+     ShutterBox - Box with a rolling shutter made of flex
+     UBox - Box various options for different stypes and lids
+   
+  
+
+
+    Trays and Drawer Inserts
+
+  
+   
+     CompartmentBox - Type tray variation with sliding lid
+     DividerTray - Divider tray - rows and dividers
+     DrillBox - A parametrized box for drills
+     GridfinityBase - A parameterized Gridfinity base
+     GridfinityDrillBox - A Gridfinity box for drills or similar tools
+     GridfinityTrayLayout - A Gridfinity Tray Generator based on TrayLayout
+     SlantedTray - One row tray with high back wall and low front wall
+     SmallPartsTray - Tray with slants to easier get out game tokens or screws
+     SmallPartsTray2 - A Type Tray variant with slopes toward the front
+     TrayInsert - Tray insert without floor and outer walls - allows only continuous walls
+     TrayLayout - Generate a typetray from a layout file.
+     TypeTray - Type tray - allows only continuous walls
+   
+  
+
+
+    Shelves
+
+  
+   
+     BinTray - A Type tray variant to be used up right with sloped walls in front
+     CardHolder - Shelf for holding (multiple) piles of playing cards / notes
+     DiscRack - A rack for storing disk-shaped objects vertically next to each other
+     DisplayShelf - Shelf with slanted floors
+     PaintStorage - Stackable storage for hobby paint or other things
+     SBCMicroRack - Stackable rackable racks for SBC Pi-Style Computers
+     SpicesRack - Rack for cans of spices
+     StackableBin - Stackable bin base on bintray
+     StorageRack - StorageRack to store boxes and trays which have their own floor
+     StorageShelf - StorageShelf can be used to store Typetray
+     WineRack - Honey Comb Style Wine Rack
+   
+  
+
+
+    WallMounted
+
+  
+   
+     DinRailBox - Box for DIN rail used in electrical junction boxes
+     KeyHolder - Wall organizer with hooks for keys or similar small items
+     RollHolder - Holder for kitchen rolls or other rolls
+     WallCaliper - Holds a single caliper to a wall
+     WallChiselHolder - Wall tool holder for chisels, files and similar tools
+     WallConsole - Outset and angled plate to mount stuff to
+     WallDrillBox - Box for drills with each compartment with a different height
+     WallEdges - Shows the different edge types for wall systems
+     WallPinRow - Outset and angled plate to mount stuff to
+     WallPlaneHolder - Hold a plane to a wall
+     WallPliersHolder - Bar to hang pliers on
+     WallRack - Wall mountable rack for spices or other items
+     WallRollHolder - Holder for kitchen rolls or other rolls
+     WallSlottedHolder - Wall tool holder with slots
+     WallStairs - Platforms in different heights e.g. for screw drivers
+     WallTypeTray - Type tray - allows only continuous walls
+     WallWrenchHolder - Hold a set of wrenches at a wall
+   
+  
+
+
+    Hole patterns
+
+  
+   
+     FanHole - Hole pattern for mounting a fan
+     FrontPanel - Mounting Holes and cutouts for all your holy needs.
+     HolePattern - Generate hole patterns in different simple shapes
+     NemaPattern - Mounting holes for a Nema motor
+     SevenSegmentPattern - Holepatterns and walls for a seven segment digit
+   
+  
+
+
+    Parts and Samples
+
+  
+   
+     BurnTest - Test different burn values
+     ConcaveKnob - Round knob serrated outside for better gripping
+     FillTest - Piece for testing different settings for hole filling
+     FlexTest - Piece for testing different flex settings
+     FlexTest2 - Piece for testing 2D flex settings
+     GearBox - Gearbox with multiple identical stages
+     Gears - Gears
+     LBeam - Simple L-Beam: two pieces joined with a right angle
+     LaserHoldfast - A holdfast for honey comb tables of laser cutters
+     NemaMount - Mounting bracket for a Nema motor
+     Planetary - Planetary Gear with possibly multiple identical stages
+     Pulley - Timing belt pulleys for different profiles
+     RectangularWall - Simple wall with options for different edges
+     RobotArm - Segments of servo powered robot arm
+     WavyKnob - Round knob serrated outside for better gripping
+   
+  
+
+
+    Misc
+
+  
+   
+     AgricolaInsert - 
+    Agricola Revised Edition game box insert, including some expansions.
+    
+     AirPurifier - Housing for the Nukit Open Air Purifier
+     AllEdges - Showing all edge types
+     AngledCutJig - Jig for making angled cuts in a laser cutter
+     Arcade - Desktop Arcade Machine
+     Atreus21 - Generator for a split atreus keyboard.
+     BirdHouse - Simple Bird House
+     BookHolder - Angled display stand for books, ring files, flyers, postcards, or business cards.
+     BottleStack - Stack bottles in a fridge
+     BottleTag - Paper slip over bottle tag
+     CanStorage - Storage box for round containers
+     CarbonFilter - Compact filter for activated char coal pellets
+     CoffeeCapsuleHolder - 
+    Coffee capsule holder
+    
+     CoinBankSafe - A piggy-bank designed to look like a safe.
+     CoinDisplay - A showcase for a single coin
+     Desksign - Simple diagonal plate with stands to show name or message.
+     DiceTower - Tool for fairly rolling dice
+     Dispenser - Dispenser for stackable (flat) items of same size
+     Display - Display for flyers or leaflets
+     DrillStand - Box for drills with each compartment of a different height
+     FilamentSpool - A two part spool for 3D printing filament
+     Folder - Book cover with flex for the spine
+     Hook - A hook with a rectangular mouth to mount at the wall
+     JointPanel - Create pieces larger than your laser cutter by joining them with Dove Tails
+     LaptopStand - A simple X shaped frame to support a laptop on a given angle
+     LaserClamp - A clamp to hold down material to a knife table
+     MagazineFile - Open magazine file
+     MakitaPowerSupply - Bench power supply powered with Maktia 18V battery or laptop power supply
+     Matrix - WS2812b matrix enclosure
+     OttoBody - Otto LC - a laser cut chassis for Otto DIY - body
+     OttoLegs - Otto LC - a laser cut chassis for Otto DIY - legs
+     OttoSoles - Foam soles for the OttO bot
+     PaperBox - 
+    Box made of paper, with lid.
+    
+     PhoneHolder - 
+    Smartphone desk holder
+    
+     PhotoFrame - 
+    3-layer photo frame with a slot at the top to slide matboard/acrylic/glass over the photo after glue-up.
+    
+     PizzaShovel - Pizza shovel with conveyor belt action
+     PoleHook - Hook for pole like things to be clamped to another pole
+     RoyalGame - The Royal Game of Ur
+     Shadowbox - The frame and spacers necessary to display a shadowbox / lightbox.
+     Shoe - Shoe shaped box
+     SkadisBoard - Customizable Ikea like pegboard
+     Spool - A simple spool
+     Stachel - Bass Recorder Endpin
+     Tetris - 3D Tetris shapes
+     TrafficLight - Traffic light
+     TriangleLamp - Triangle LED Lamp
+   
+  
+
+
+    Unstable
+
+  
+   
+     Castle - Castle tower with two walls
+     OrganPipe - Rectangular organ pipe based on pipecalc
+     Planetary2 - Balanced force Difference Planetary Gear (not yet working properly)
+     Platonic - Platonic solids generator
+     Rotary - Rotary Attachment for engraving cylindrical objects in a laser cutter
+     SevenSegmentClock - Seven segment clock build with LED stripe
+     Silverware - 
+    Cuttlery stand with carrying grip
+    using flex for rounded corners
+    
+   
+  
+
+
+
+
+
+
+
+,
+
+Boxes.py
+Create boxes and more with a laser cutter!
+
+
+        Boxes.py is an Open Source box generator written in Python. It features both finished parametrized generators as well as a Python API for writing your own. It features finger and (flat) dovetail joints, flex cuts, holes and slots for screws, hinges, gears, pulleys and much more.
+
+,
+
+,
+
+
+
+
+🔍 
+
+
+
+Gallery
+Menu
+
+
+
+
+
+
+    Boxes
+
+  
+   
+     ABox - A simple Box
+     AngledBox - Box with both ends cornered
+     BasedBox - Fully closed box on a base
+     BayonetBox - Round box made from layers with twist on top
+     BrickSorter - Stackable nestable sorting sieve for bricks
+     CardBox - Box for storage of playing cards, with versatile options
+     ClosedBox - Fully closed box
+     Console - Console with slanted panel
+     Console2 - Console with slanted panel and service hatches
+     DiceBox - Box with lid and integraded hinge for storing dice
+     DisplayCase - Fully closed box intended to be cut from transparent acrylics and to serve as a display case.
+     ElectronicsBox - Closed box with screw on top and mounting holes
+     EuroRackSkiff - 3U Height case with adjustable width and height and included rails
+     HalfBox - Configurable half of a box which can be: a bookend, a hanging shelf, an angle clamping jig, ...
+     HingeBox - Box with lid attached by cabinet hinges
+     IntegratedHingeBox - Box with lid and integraded hinge
+     Keypad - Generator for keypads with mechanical switches.
+     NotesHolder - Box for holding a stack of paper, coasters etc
+     OpenBox - Box with top and front open
+     PirateChest - Box with polygon lid with chest hinges.
+     Rack10Box - Closed box with screw on top for mounting in a 10" rack.
+     Rack19Box - Closed box with screw on top for mounting in a 19" rack.
+     Rack19HalfWidth - Half width 19inch rack unit for musical equipment.
+     RackBox - Closed box with screw on top and mounting holes
+     RegularBox - Box with regular polygon as base
+     RegularStarBox - Regular polygon boxes that form a star when closed
+     SideDoorHousing - Box with service hatches on either one or both of the sides that are locked with latches
+     SideHingeBox - Box, with an hinge that does not protrude from the back of the box, and a latch.
+     SlidingDrawer - Sliding drawer box
+     TwoPiece - A two piece box where top slips over the bottom half to form the enclosure.
+     UnevenHeightBox - Box with different height in each corner
+     UniversalBox - Box with various options for different styles and lids
+   
+  
+
+
+    Boxes with flex
+
+  
+   
+     BreadBox - A BreadBox with a gliding door
+     DoubleFlexDoorBox - Box with two part lid with living hinges and round corners
+     FlexBook - Box with living hinge styled after a book.
+     FlexBox - Box with living hinge and round corners
+     FlexBox2 - Box with living hinge and top corners rounded
+     FlexBox3 - Box with living hinge
+     FlexBox4 - Box with living hinge and left corners rounded
+     FlexBox5 - Box with living hinge and round corners
+     HeartBox - Box in the form of a heart
+     RoundedBox - Box with vertical edges rounded
+     ShutterBox - Box with a rolling shutter made of flex
+     UBox - Box various options for different stypes and lids
+   
+  
+
+
+    Trays and Drawer Inserts
+
+  
+   
+     CompartmentBox - Type tray variation with sliding lid
+     DividerTray - Divider tray - rows and dividers
+     DrillBox - A parametrized box for drills
+     GridfinityBase - A parameterized Gridfinity base
+     GridfinityDrillBox - A Gridfinity box for drills or similar tools
+     GridfinityTrayLayout - A Gridfinity Tray Generator based on TrayLayout
+     SlantedTray - One row tray with high back wall and low front wall
+     SmallPartsTray - Tray with slants to easier get out game tokens or screws
+     SmallPartsTray2 - A Type Tray variant with slopes toward the front
+     TrayInsert - Tray insert without floor and outer walls - allows only continuous walls
+     TrayLayout - Generate a typetray from a layout file.
+     TypeTray - Type tray - allows only continuous walls
+   
+  
+
+
+    Shelves
+
+  
+   
+     BinTray - A Type tray variant to be used up right with sloped walls in front
+     CardHolder - Shelf for holding (multiple) piles of playing cards / notes
+     DiscRack - A rack for storing disk-shaped objects vertically next to each other
+     DisplayShelf - Shelf with slanted floors
+     PaintStorage - Stackable storage for hobby paint or other things
+     SBCMicroRack - Stackable rackable racks for SBC Pi-Style Computers
+     SpicesRack - Rack for cans of spices
+     StackableBin - Stackable bin base on bintray
+     StorageRack - StorageRack to store boxes and trays which have their own floor
+     StorageShelf - StorageShelf can be used to store Typetray
+     WineRack - Honey Comb Style Wine Rack
+   
+  
+
+
+    WallMounted
+
+  
+   
+     DinRailBox - Box for DIN rail used in electrical junction boxes
+     KeyHolder - Wall organizer with hooks for keys or similar small items
+     RollHolder - Holder for kitchen rolls or other rolls
+     WallCaliper - Holds a single caliper to a wall
+     WallChiselHolder - Wall tool holder for chisels, files and similar tools
+     WallConsole - Outset and angled plate to mount stuff to
+     WallDrillBox - Box for drills with each compartment with a different height
+     WallEdges - Shows the different edge types for wall systems
+     WallPinRow - Outset and angled plate to mount stuff to
+     WallPlaneHolder - Hold a plane to a wall
+     WallPliersHolder - Bar to hang pliers on
+     WallRack - Wall mountable rack for spices or other items
+     WallRollHolder - Holder for kitchen rolls or other rolls
+     WallSlottedHolder - Wall tool holder with slots
+     WallStairs - Platforms in different heights e.g. for screw drivers
+     WallTypeTray - Type tray - allows only continuous walls
+     WallWrenchHolder - Hold a set of wrenches at a wall
+   
+  
+
+
+    Hole patterns
+
+  
+   
+     FanHole - Hole pattern for mounting a fan
+     FrontPanel - Mounting Holes and cutouts for all your holy needs.
+     HolePattern - Generate hole patterns in different simple shapes
+     NemaPattern - Mounting holes for a Nema motor
+     SevenSegmentPattern - Holepatterns and walls for a seven segment digit
+   
+  
+
+
+    Parts and Samples
+
+  
+   
+     BurnTest - Test different burn values
+     ConcaveKnob - Round knob serrated outside for better gripping
+     FillTest - Piece for testing different settings for hole filling
+     FlexTest - Piece for testing different flex settings
+     FlexTest2 - Piece for testing 2D flex settings
+     GearBox - Gearbox with multiple identical stages
+     Gears - Gears
+     LBeam - Simple L-Beam: two pieces joined with a right angle
+     LaserHoldfast - A holdfast for honey comb tables of laser cutters
+     NemaMount - Mounting bracket for a Nema motor
+     Planetary - Planetary Gear with possibly multiple identical stages
+     Pulley - Timing belt pulleys for different profiles
+     RectangularWall - Simple wall with options for different edges
+     RobotArm - Segments of servo powered robot arm
+     WavyKnob - Round knob serrated outside for better gripping
+   
+  
+
+
+    Misc
+
+  
+   
+     AgricolaInsert - 
+    Agricola Revised Edition game box insert, including some expansions.
+    
+     AirPurifier - Housing for the Nukit Open Air Purifier
+     AllEdges - Showing all edge types
+     AngledCutJig - Jig for making angled cuts in a laser cutter
+     Arcade - Desktop Arcade Machine
+     Atreus21 - Generator for a split atreus keyboard.
+     BirdHouse - Simple Bird House
+     BookHolder - Angled display stand for books, ring files, flyers, postcards, or business cards.
+     BottleStack - Stack bottles in a fridge
+     BottleTag - Paper slip over bottle tag
+     CanStorage - Storage box for round containers
+     CarbonFilter - Compact filter for activated char coal pellets
+     CoffeeCapsuleHolder - 
+    Coffee capsule holder
+    
+     CoinBankSafe - A piggy-bank designed to look like a safe.
+     CoinDisplay - A showcase for a single coin
+     Desksign - Simple diagonal plate with stands to show name or message.
+     DiceTower - Tool for fairly rolling dice
+     Dispenser - Dispenser for stackable (flat) items of same size
+     Display - Display for flyers or leaflets
+     DrillStand - Box for drills with each compartment of a different height
+     FilamentSpool - A two part spool for 3D printing filament
+     Folder - Book cover with flex for the spine
+     Hook - A hook with a rectangular mouth to mount at the wall
+     JointPanel - Create pieces larger than your laser cutter by joining them with Dove Tails
+     LaptopStand - A simple X shaped frame to support a laptop on a given angle
+     LaserClamp - A clamp to hold down material to a knife table
+     MagazineFile - Open magazine file
+     MakitaPowerSupply - Bench power supply powered with Maktia 18V battery or laptop power supply
+     Matrix - WS2812b matrix enclosure
+     OttoBody - Otto LC - a laser cut chassis for Otto DIY - body
+     OttoLegs - Otto LC - a laser cut chassis for Otto DIY - legs
+     OttoSoles - Foam soles for the OttO bot
+     PaperBox - 
+    Box made of paper, with lid.
+    
+     PhoneHolder - 
+    Smartphone desk holder
+    
+     PhotoFrame - 
+    3-layer photo frame with a slot at the top to slide matboard/acrylic/glass over the photo after glue-up.
+    
+     PizzaShovel - Pizza shovel with conveyor belt action
+     PoleHook - Hook for pole like things to be clamped to another pole
+     RoyalGame - The Royal Game of Ur
+     Shadowbox - The frame and spacers necessary to display a shadowbox / lightbox.
+     Shoe - Shoe shaped box
+     SkadisBoard - Customizable Ikea like pegboard
+     Spool - A simple spool
+     Stachel - Bass Recorder Endpin
+     Tetris - 3D Tetris shapes
+     TrafficLight - Traffic light
+     TriangleLamp - Triangle LED Lamp
+   
+  
+
+
+    Unstable
+
+  
+   
+     Castle - Castle tower with two walls
+     OrganPipe - Rectangular organ pipe based on pipecalc
+     Planetary2 - Balanced force Difference Planetary Gear (not yet working properly)
+     Platonic - Platonic solids generator
+     Rotary - Rotary Attachment for engraving cylindrical objects in a laser cutter
+     SevenSegmentClock - Seven segment clock build with LED stripe
+     Silverware - 
+    Cuttlery stand with carrying grip
+    using flex for rounded corners
+    
+   
+  
+
+
+
+
+
+
+,,
+🔍 
+,
+Gallery
+Menu
+,
+
+
+
+    Boxes
+
+  
+   
+     ABox - A simple Box
+     AngledBox - Box with both ends cornered
+     BasedBox - Fully closed box on a base
+     BayonetBox - Round box made from layers with twist on top
+     BrickSorter - Stackable nestable sorting sieve for bricks
+     CardBox - Box for storage of playing cards, with versatile options
+     ClosedBox - Fully closed box
+     Console - Console with slanted panel
+     Console2 - Console with slanted panel and service hatches
+     DiceBox - Box with lid and integraded hinge for storing dice
+     DisplayCase - Fully closed box intended to be cut from transparent acrylics and to serve as a display case.
+     ElectronicsBox - Closed box with screw on top and mounting holes
+     EuroRackSkiff - 3U Height case with adjustable width and height and included rails
+     HalfBox - Configurable half of a box which can be: a bookend, a hanging shelf, an angle clamping jig, ...
+     HingeBox - Box with lid attached by cabinet hinges
+     IntegratedHingeBox - Box with lid and integraded hinge
+     Keypad - Generator for keypads with mechanical switches.
+     NotesHolder - Box for holding a stack of paper, coasters etc
+     OpenBox - Box with top and front open
+     PirateChest - Box with polygon lid with chest hinges.
+     Rack10Box - Closed box with screw on top for mounting in a 10" rack.
+     Rack19Box - Closed box with screw on top for mounting in a 19" rack.
+     Rack19HalfWidth - Half width 19inch rack unit for musical equipment.
+     RackBox - Closed box with screw on top and mounting holes
+     RegularBox - Box with regular polygon as base
+     RegularStarBox - Regular polygon boxes that form a star when closed
+     SideDoorHousing - Box with service hatches on either one or both of the sides that are locked with latches
+     SideHingeBox - Box, with an hinge that does not protrude from the back of the box, and a latch.
+     SlidingDrawer - Sliding drawer box
+     TwoPiece - A two piece box where top slips over the bottom half to form the enclosure.
+     UnevenHeightBox - Box with different height in each corner
+     UniversalBox - Box with various options for different styles and lids
+   
+  
+
+
+    Boxes with flex
+
+  
+   
+     BreadBox - A BreadBox with a gliding door
+     DoubleFlexDoorBox - Box with two part lid with living hinges and round corners
+     FlexBook - Box with living hinge styled after a book.
+     FlexBox - Box with living hinge and round corners
+     FlexBox2 - Box with living hinge and top corners rounded
+     FlexBox3 - Box with living hinge
+     FlexBox4 - Box with living hinge and left corners rounded
+     FlexBox5 - Box with living hinge and round corners
+     HeartBox - Box in the form of a heart
+     RoundedBox - Box with vertical edges rounded
+     ShutterBox - Box with a rolling shutter made of flex
+     UBox - Box various options for different stypes and lids
+   
+  
+
+
+    Trays and Drawer Inserts
+
+  
+   
+     CompartmentBox - Type tray variation with sliding lid
+     DividerTray - Divider tray - rows and dividers
+     DrillBox - A parametrized box for drills
+     GridfinityBase - A parameterized Gridfinity base
+     GridfinityDrillBox - A Gridfinity box for drills or similar tools
+     GridfinityTrayLayout - A Gridfinity Tray Generator based on TrayLayout
+     SlantedTray - One row tray with high back wall and low front wall
+     SmallPartsTray - Tray with slants to easier get out game tokens or screws
+     SmallPartsTray2 - A Type Tray variant with slopes toward the front
+     TrayInsert - Tray insert without floor and outer walls - allows only continuous walls
+     TrayLayout - Generate a typetray from a layout file.
+     TypeTray - Type tray - allows only continuous walls
+   
+  
+
+
+    Shelves
+
+  
+   
+     BinTray - A Type tray variant to be used up right with sloped walls in front
+     CardHolder - Shelf for holding (multiple) piles of playing cards / notes
+     DiscRack - A rack for storing disk-shaped objects vertically next to each other
+     DisplayShelf - Shelf with slanted floors
+     PaintStorage - Stackable storage for hobby paint or other things
+     SBCMicroRack - Stackable rackable racks for SBC Pi-Style Computers
+     SpicesRack - Rack for cans of spices
+     StackableBin - Stackable bin base on bintray
+     StorageRack - StorageRack to store boxes and trays which have their own floor
+     StorageShelf - StorageShelf can be used to store Typetray
+     WineRack - Honey Comb Style Wine Rack
+   
+  
+
+
+    WallMounted
+
+  
+   
+     DinRailBox - Box for DIN rail used in electrical junction boxes
+     KeyHolder - Wall organizer with hooks for keys or similar small items
+     RollHolder - Holder for kitchen rolls or other rolls
+     WallCaliper - Holds a single caliper to a wall
+     WallChiselHolder - Wall tool holder for chisels, files and similar tools
+     WallConsole - Outset and angled plate to mount stuff to
+     WallDrillBox - Box for drills with each compartment with a different height
+     WallEdges - Shows the different edge types for wall systems
+     WallPinRow - Outset and angled plate to mount stuff to
+     WallPlaneHolder - Hold a plane to a wall
+     WallPliersHolder - Bar to hang pliers on
+     WallRack - Wall mountable rack for spices or other items
+     WallRollHolder - Holder for kitchen rolls or other rolls
+     WallSlottedHolder - Wall tool holder with slots
+     WallStairs - Platforms in different heights e.g. for screw drivers
+     WallTypeTray - Type tray - allows only continuous walls
+     WallWrenchHolder - Hold a set of wrenches at a wall
+   
+  
+
+
+    Hole patterns
+
+  
+   
+     FanHole - Hole pattern for mounting a fan
+     FrontPanel - Mounting Holes and cutouts for all your holy needs.
+     HolePattern - Generate hole patterns in different simple shapes
+     NemaPattern - Mounting holes for a Nema motor
+     SevenSegmentPattern - Holepatterns and walls for a seven segment digit
+   
+  
+
+
+    Parts and Samples
+
+  
+   
+     BurnTest - Test different burn values
+     ConcaveKnob - Round knob serrated outside for better gripping
+     FillTest - Piece for testing different settings for hole filling
+     FlexTest - Piece for testing different flex settings
+     FlexTest2 - Piece for testing 2D flex settings
+     GearBox - Gearbox with multiple identical stages
+     Gears - Gears
+     LBeam - Simple L-Beam: two pieces joined with a right angle
+     LaserHoldfast - A holdfast for honey comb tables of laser cutters
+     NemaMount - Mounting bracket for a Nema motor
+     Planetary - Planetary Gear with possibly multiple identical stages
+     Pulley - Timing belt pulleys for different profiles
+     RectangularWall - Simple wall with options for different edges
+     RobotArm - Segments of servo powered robot arm
+     WavyKnob - Round knob serrated outside for better gripping
+   
+  
+
+
+    Misc
+
+  
+   
+     AgricolaInsert - 
+    Agricola Revised Edition game box insert, including some expansions.
+    
+     AirPurifier - Housing for the Nukit Open Air Purifier
+     AllEdges - Showing all edge types
+     AngledCutJig - Jig for making angled cuts in a laser cutter
+     Arcade - Desktop Arcade Machine
+     Atreus21 - Generator for a split atreus keyboard.
+     BirdHouse - Simple Bird House
+     BookHolder - Angled display stand for books, ring files, flyers, postcards, or business cards.
+     BottleStack - Stack bottles in a fridge
+     BottleTag - Paper slip over bottle tag
+     CanStorage - Storage box for round containers
+     CarbonFilter - Compact filter for activated char coal pellets
+     CoffeeCapsuleHolder - 
+    Coffee capsule holder
+    
+     CoinBankSafe - A piggy-bank designed to look like a safe.
+     CoinDisplay - A showcase for a single coin
+     Desksign - Simple diagonal plate with stands to show name or message.
+     DiceTower - Tool for fairly rolling dice
+     Dispenser - Dispenser for stackable (flat) items of same size
+     Display - Display for flyers or leaflets
+     DrillStand - Box for drills with each compartment of a different height
+     FilamentSpool - A two part spool for 3D printing filament
+     Folder - Book cover with flex for the spine
+     Hook - A hook with a rectangular mouth to mount at the wall
+     JointPanel - Create pieces larger than your laser cutter by joining them with Dove Tails
+     LaptopStand - A simple X shaped frame to support a laptop on a given angle
+     LaserClamp - A clamp to hold down material to a knife table
+     MagazineFile - Open magazine file
+     MakitaPowerSupply - Bench power supply powered with Maktia 18V battery or laptop power supply
+     Matrix - WS2812b matrix enclosure
+     OttoBody - Otto LC - a laser cut chassis for Otto DIY - body
+     OttoLegs - Otto LC - a laser cut chassis for Otto DIY - legs
+     OttoSoles - Foam soles for the OttO bot
+     PaperBox - 
+    Box made of paper, with lid.
+    
+     PhoneHolder - 
+    Smartphone desk holder
+    
+     PhotoFrame - 
+    3-layer photo frame with a slot at the top to slide matboard/acrylic/glass over the photo after glue-up.
+    
+     PizzaShovel - Pizza shovel with conveyor belt action
+     PoleHook - Hook for pole like things to be clamped to another pole
+     RoyalGame - The Royal Game of Ur
+     Shadowbox - The frame and spacers necessary to display a shadowbox / lightbox.
+     Shoe - Shoe shaped box
+     SkadisBoard - Customizable Ikea like pegboard
+     Spool - A simple spool
+     Stachel - Bass Recorder Endpin
+     Tetris - 3D Tetris shapes
+     TrafficLight - Traffic light
+     TriangleLamp - Triangle LED Lamp
+   
+  
+
+
+    Unstable
+
+  
+   
+     Castle - Castle tower with two walls
+     OrganPipe - Rectangular organ pipe based on pipecalc
+     Planetary2 - Balanced force Difference Planetary Gear (not yet working properly)
+     Platonic - Platonic solids generator
+     Rotary - Rotary Attachment for engraving cylindrical objects in a laser cutter
+     SevenSegmentClock - Seven segment clock build with LED stripe
+     Silverware - 
+    Cuttlery stand with carrying grip
+    using flex for rounded corners
+    
+   
+  
+
+,
+   
+     ABox - A simple Box
+     AngledBox - Box with both ends cornered
+     BasedBox - Fully closed box on a base
+     BayonetBox - Round box made from layers with twist on top
+     BrickSorter - Stackable nestable sorting sieve for bricks
+     CardBox - Box for storage of playing cards, with versatile options
+     ClosedBox - Fully closed box
+     Console - Console with slanted panel
+     Console2 - Console with slanted panel and service hatches
+     DiceBox - Box with lid and integraded hinge for storing dice
+     DisplayCase - Fully closed box intended to be cut from transparent acrylics and to serve as a display case.
+     ElectronicsBox - Closed box with screw on top and mounting holes
+     EuroRackSkiff - 3U Height case with adjustable width and height and included rails
+     HalfBox - Configurable half of a box which can be: a bookend, a hanging shelf, an angle clamping jig, ...
+     HingeBox - Box with lid attached by cabinet hinges
+     IntegratedHingeBox - Box with lid and integraded hinge
+     Keypad - Generator for keypads with mechanical switches.
+     NotesHolder - Box for holding a stack of paper, coasters etc
+     OpenBox - Box with top and front open
+     PirateChest - Box with polygon lid with chest hinges.
+     Rack10Box - Closed box with screw on top for mounting in a 10" rack.
+     Rack19Box - Closed box with screw on top for mounting in a 19" rack.
+     Rack19HalfWidth - Half width 19inch rack unit for musical equipment.
+     RackBox - Closed box with screw on top and mounting holes
+     RegularBox - Box with regular polygon as base
+     RegularStarBox - Regular polygon boxes that form a star when closed
+     SideDoorHousing - Box with service hatches on either one or both of the sides that are locked with latches
+     SideHingeBox - Box, with an hinge that does not protrude from the back of the box, and a latch.
+     SlidingDrawer - Sliding drawer box
+     TwoPiece - A two piece box where top slips over the bottom half to form the enclosure.
+     UnevenHeightBox - Box with different height in each corner
+     UniversalBox - Box with various options for different styles and lids
+   
+  ,
+   
+     BreadBox - A BreadBox with a gliding door
+     DoubleFlexDoorBox - Box with two part lid with living hinges and round corners
+     FlexBook - Box with living hinge styled after a book.
+     FlexBox - Box with living hinge and round corners
+     FlexBox2 - Box with living hinge and top corners rounded
+     FlexBox3 - Box with living hinge
+     FlexBox4 - Box with living hinge and left corners rounded
+     FlexBox5 - Box with living hinge and round corners
+     HeartBox - Box in the form of a heart
+     RoundedBox - Box with vertical edges rounded
+     ShutterBox - Box with a rolling shutter made of flex
+     UBox - Box various options for different stypes and lids
+   
+  ,
+   
+     CompartmentBox - Type tray variation with sliding lid
+     DividerTray - Divider tray - rows and dividers
+     DrillBox - A parametrized box for drills
+     GridfinityBase - A parameterized Gridfinity base
+     GridfinityDrillBox - A Gridfinity box for drills or similar tools
+     GridfinityTrayLayout - A Gridfinity Tray Generator based on TrayLayout
+     SlantedTray - One row tray with high back wall and low front wall
+     SmallPartsTray - Tray with slants to easier get out game tokens or screws
+     SmallPartsTray2 - A Type Tray variant with slopes toward the front
+     TrayInsert - Tray insert without floor and outer walls - allows only continuous walls
+     TrayLayout - Generate a typetray from a layout file.
+     TypeTray - Type tray - allows only continuous walls
+   
+  ,
+   
+     BinTray - A Type tray variant to be used up right with sloped walls in front
+     CardHolder - Shelf for holding (multiple) piles of playing cards / notes
+     DiscRack - A rack for storing disk-shaped objects vertically next to each other
+     DisplayShelf - Shelf with slanted floors
+     PaintStorage - Stackable storage for hobby paint or other things
+     SBCMicroRack - Stackable rackable racks for SBC Pi-Style Computers
+     SpicesRack - Rack for cans of spices
+     StackableBin - Stackable bin base on bintray
+     StorageRack - StorageRack to store boxes and trays which have their own floor
+     StorageShelf - StorageShelf can be used to store Typetray
+     WineRack - Honey Comb Style Wine Rack
+   
+  ,
+   
+     DinRailBox - Box for DIN rail used in electrical junction boxes
+     KeyHolder - Wall organizer with hooks for keys or similar small items
+     RollHolder - Holder for kitchen rolls or other rolls
+     WallCaliper - Holds a single caliper to a wall
+     WallChiselHolder - Wall tool holder for chisels, files and similar tools
+     WallConsole - Outset and angled plate to mount stuff to
+     WallDrillBox - Box for drills with each compartment with a different height
+     WallEdges - Shows the different edge types for wall systems
+     WallPinRow - Outset and angled plate to mount stuff to
+     WallPlaneHolder - Hold a plane to a wall
+     WallPliersHolder - Bar to hang pliers on
+     WallRack - Wall mountable rack for spices or other items
+     WallRollHolder - Holder for kitchen rolls or other rolls
+     WallSlottedHolder - Wall tool holder with slots
+     WallStairs - Platforms in different heights e.g. for screw drivers
+     WallTypeTray - Type tray - allows only continuous walls
+     WallWrenchHolder - Hold a set of wrenches at a wall
+   
+  ,
+   
+     FanHole - Hole pattern for mounting a fan
+     FrontPanel - Mounting Holes and cutouts for all your holy needs.
+     HolePattern - Generate hole patterns in different simple shapes
+     NemaPattern - Mounting holes for a Nema motor
+     SevenSegmentPattern - Holepatterns and walls for a seven segment digit
+   
+  ,
+   
+     BurnTest - Test different burn values
+     ConcaveKnob - Round knob serrated outside for better gripping
+     FillTest - Piece for testing different settings for hole filling
+     FlexTest - Piece for testing different flex settings
+     FlexTest2 - Piece for testing 2D flex settings
+     GearBox - Gearbox with multiple identical stages
+     Gears - Gears
+     LBeam - Simple L-Beam: two pieces joined with a right angle
+     LaserHoldfast - A holdfast for honey comb tables of laser cutters
+     NemaMount - Mounting bracket for a Nema motor
+     Planetary - Planetary Gear with possibly multiple identical stages
+     Pulley - Timing belt pulleys for different profiles
+     RectangularWall - Simple wall with options for different edges
+     RobotArm - Segments of servo powered robot arm
+     WavyKnob - Round knob serrated outside for better gripping
+   
+  ,
+   
+     AgricolaInsert - 
+    Agricola Revised Edition game box insert, including some expansions.
+    
+     AirPurifier - Housing for the Nukit Open Air Purifier
+     AllEdges - Showing all edge types
+     AngledCutJig - Jig for making angled cuts in a laser cutter
+     Arcade - Desktop Arcade Machine
+     Atreus21 - Generator for a split atreus keyboard.
+     BirdHouse - Simple Bird House
+     BookHolder - Angled display stand for books, ring files, flyers, postcards, or business cards.
+     BottleStack - Stack bottles in a fridge
+     BottleTag - Paper slip over bottle tag
+     CanStorage - Storage box for round containers
+     CarbonFilter - Compact filter for activated char coal pellets
+     CoffeeCapsuleHolder - 
+    Coffee capsule holder
+    
+     CoinBankSafe - A piggy-bank designed to look like a safe.
+     CoinDisplay - A showcase for a single coin
+     Desksign - Simple diagonal plate with stands to show name or message.
+     DiceTower - Tool for fairly rolling dice
+     Dispenser - Dispenser for stackable (flat) items of same size
+     Display - Display for flyers or leaflets
+     DrillStand - Box for drills with each compartment of a different height
+     FilamentSpool - A two part spool for 3D printing filament
+     Folder - Book cover with flex for the spine
+     Hook - A hook with a rectangular mouth to mount at the wall
+     JointPanel - Create pieces larger than your laser cutter by joining them with Dove Tails
+     LaptopStand - A simple X shaped frame to support a laptop on a given angle
+     LaserClamp - A clamp to hold down material to a knife table
+     MagazineFile - Open magazine file
+     MakitaPowerSupply - Bench power supply powered with Maktia 18V battery or laptop power supply
+     Matrix - WS2812b matrix enclosure
+     OttoBody - Otto LC - a laser cut chassis for Otto DIY - body
+     OttoLegs - Otto LC - a laser cut chassis for Otto DIY - legs
+     OttoSoles - Foam soles for the OttO bot
+     PaperBox - 
+    Box made of paper, with lid.
+    
+     PhoneHolder - 
+    Smartphone desk holder
+    
+     PhotoFrame - 
+    3-layer photo frame with a slot at the top to slide matboard/acrylic/glass over the photo after glue-up.
+    
+     PizzaShovel - Pizza shovel with conveyor belt action
+     PoleHook - Hook for pole like things to be clamped to another pole
+     RoyalGame - The Royal Game of Ur
+     Shadowbox - The frame and spacers necessary to display a shadowbox / lightbox.
+     Shoe - Shoe shaped box
+     SkadisBoard - Customizable Ikea like pegboard
+     Spool - A simple spool
+     Stachel - Bass Recorder Endpin
+     Tetris - 3D Tetris shapes
+     TrafficLight - Traffic light
+     TriangleLamp - Triangle LED Lamp
+   
+  ,
+   
+     Castle - Castle tower with two walls
+     OrganPipe - Rectangular organ pipe based on pipecalc
+     Planetary2 - Balanced force Difference Planetary Gear (not yet working properly)
+     Platonic - Platonic solids generator
+     Rotary - Rotary Attachment for engraving cylindrical objects in a laser cutter
+     SevenSegmentClock - Seven segment clock build with LED stripe
+     Silverware - 
+    Cuttlery stand with carrying grip
+    using flex for rounded corners
+    
+   
+  ,,,
+
+  
+        
+            
+            de
+en
+fr
+zh_CN
+
+            
+        
+        
+  Help
+  Home Page
+  Documentation
+  Sources
+
+,
+     ABox - A simple Box
+     AngledBox - Box with both ends cornered
+     BasedBox - Fully closed box on a base
+     BayonetBox - Round box made from layers with twist on top
+     BrickSorter - Stackable nestable sorting sieve for bricks
+     CardBox - Box for storage of playing cards, with versatile options
+     ClosedBox - Fully closed box
+     Console - Console with slanted panel
+     Console2 - Console with slanted panel and service hatches
+     DiceBox - Box with lid and integraded hinge for storing dice
+     DisplayCase - Fully closed box intended to be cut from transparent acrylics and to serve as a display case.
+     ElectronicsBox - Closed box with screw on top and mounting holes
+     EuroRackSkiff - 3U Height case with adjustable width and height and included rails
+     HalfBox - Configurable half of a box which can be: a bookend, a hanging shelf, an angle clamping jig, ...
+     HingeBox - Box with lid attached by cabinet hinges
+     IntegratedHingeBox - Box with lid and integraded hinge
+     Keypad - Generator for keypads with mechanical switches.
+     NotesHolder - Box for holding a stack of paper, coasters etc
+     OpenBox - Box with top and front open
+     PirateChest - Box with polygon lid with chest hinges.
+     Rack10Box - Closed box with screw on top for mounting in a 10" rack.
+     Rack19Box - Closed box with screw on top for mounting in a 19" rack.
+     Rack19HalfWidth - Half width 19inch rack unit for musical equipment.
+     RackBox - Closed box with screw on top and mounting holes
+     RegularBox - Box with regular polygon as base
+     RegularStarBox - Regular polygon boxes that form a star when closed
+     SideDoorHousing - Box with service hatches on either one or both of the sides that are locked with latches
+     SideHingeBox - Box, with an hinge that does not protrude from the back of the box, and a latch.
+     SlidingDrawer - Sliding drawer box
+     TwoPiece - A two piece box where top slips over the bottom half to form the enclosure.
+     UnevenHeightBox - Box with different height in each corner
+     UniversalBox - Box with various options for different styles and lids
+   
+,
+     BreadBox - A BreadBox with a gliding door
+     DoubleFlexDoorBox - Box with two part lid with living hinges and round corners
+     FlexBook - Box with living hinge styled after a book.
+     FlexBox - Box with living hinge and round corners
+     FlexBox2 - Box with living hinge and top corners rounded
+     FlexBox3 - Box with living hinge
+     FlexBox4 - Box with living hinge and left corners rounded
+     FlexBox5 - Box with living hinge and round corners
+     HeartBox - Box in the form of a heart
+     RoundedBox - Box with vertical edges rounded
+     ShutterBox - Box with a rolling shutter made of flex
+     UBox - Box various options for different stypes and lids
+   
+,
+     CompartmentBox - Type tray variation with sliding lid
+     DividerTray - Divider tray - rows and dividers
+     DrillBox - A parametrized box for drills
+     GridfinityBase - A parameterized Gridfinity base
+     GridfinityDrillBox - A Gridfinity box for drills or similar tools
+     GridfinityTrayLayout - A Gridfinity Tray Generator based on TrayLayout
+     SlantedTray - One row tray with high back wall and low front wall
+     SmallPartsTray - Tray with slants to easier get out game tokens or screws
+     SmallPartsTray2 - A Type Tray variant with slopes toward the front
+     TrayInsert - Tray insert without floor and outer walls - allows only continuous walls
+     TrayLayout - Generate a typetray from a layout file.
+     TypeTray - Type tray - allows only continuous walls
+   
+,
+     BinTray - A Type tray variant to be used up right with sloped walls in front
+     CardHolder - Shelf for holding (multiple) piles of playing cards / notes
+     DiscRack - A rack for storing disk-shaped objects vertically next to each other
+     DisplayShelf - Shelf with slanted floors
+     PaintStorage - Stackable storage for hobby paint or other things
+     SBCMicroRack - Stackable rackable racks for SBC Pi-Style Computers
+     SpicesRack - Rack for cans of spices
+     StackableBin - Stackable bin base on bintray
+     StorageRack - StorageRack to store boxes and trays which have their own floor
+     StorageShelf - StorageShelf can be used to store Typetray
+     WineRack - Honey Comb Style Wine Rack
+   
+,
+     DinRailBox - Box for DIN rail used in electrical junction boxes
+     KeyHolder - Wall organizer with hooks for keys or similar small items
+     RollHolder - Holder for kitchen rolls or other rolls
+     WallCaliper - Holds a single caliper to a wall
+     WallChiselHolder - Wall tool holder for chisels, files and similar tools
+     WallConsole - Outset and angled plate to mount stuff to
+     WallDrillBox - Box for drills with each compartment with a different height
+     WallEdges - Shows the different edge types for wall systems
+     WallPinRow - Outset and angled plate to mount stuff to
+     WallPlaneHolder - Hold a plane to a wall
+     WallPliersHolder - Bar to hang pliers on
+     WallRack - Wall mountable rack for spices or other items
+     WallRollHolder - Holder for kitchen rolls or other rolls
+     WallSlottedHolder - Wall tool holder with slots
+     WallStairs - Platforms in different heights e.g. for screw drivers
+     WallTypeTray - Type tray - allows only continuous walls
+     WallWrenchHolder - Hold a set of wrenches at a wall
+   
+,
+     FanHole - Hole pattern for mounting a fan
+     FrontPanel - Mounting Holes and cutouts for all your holy needs.
+     HolePattern - Generate hole patterns in different simple shapes
+     NemaPattern - Mounting holes for a Nema motor
+     SevenSegmentPattern - Holepatterns and walls for a seven segment digit
+   
+,
+     BurnTest - Test different burn values
+     ConcaveKnob - Round knob serrated outside for better gripping
+     FillTest - Piece for testing different settings for hole filling
+     FlexTest - Piece for testing different flex settings
+     FlexTest2 - Piece for testing 2D flex settings
+     GearBox - Gearbox with multiple identical stages
+     Gears - Gears
+     LBeam - Simple L-Beam: two pieces joined with a right angle
+     LaserHoldfast - A holdfast for honey comb tables of laser cutters
+     NemaMount - Mounting bracket for a Nema motor
+     Planetary - Planetary Gear with possibly multiple identical stages
+     Pulley - Timing belt pulleys for different profiles
+     RectangularWall - Simple wall with options for different edges
+     RobotArm - Segments of servo powered robot arm
+     WavyKnob - Round knob serrated outside for better gripping
+   
+,
+     AgricolaInsert - 
+    Agricola Revised Edition game box insert, including some expansions.
+    
+     AirPurifier - Housing for the Nukit Open Air Purifier
+     AllEdges - Showing all edge types
+     AngledCutJig - Jig for making angled cuts in a laser cutter
+     Arcade - Desktop Arcade Machine
+     Atreus21 - Generator for a split atreus keyboard.
+     BirdHouse - Simple Bird House
+     BookHolder - Angled display stand for books, ring files, flyers, postcards, or business cards.
+     BottleStack - Stack bottles in a fridge
+     BottleTag - Paper slip over bottle tag
+     CanStorage - Storage box for round containers
+     CarbonFilter - Compact filter for activated char coal pellets
+     CoffeeCapsuleHolder - 
+    Coffee capsule holder
+    
+     CoinBankSafe - A piggy-bank designed to look like a safe.
+     CoinDisplay - A showcase for a single coin
+     Desksign - Simple diagonal plate with stands to show name or message.
+     DiceTower - Tool for fairly rolling dice
+     Dispenser - Dispenser for stackable (flat) items of same size
+     Display - Display for flyers or leaflets
+     DrillStand - Box for drills with each compartment of a different height
+     FilamentSpool - A two part spool for 3D printing filament
+     Folder - Book cover with flex for the spine
+     Hook - A hook with a rectangular mouth to mount at the wall
+     JointPanel - Create pieces larger than your laser cutter by joining them with Dove Tails
+     LaptopStand - A simple X shaped frame to support a laptop on a given angle
+     LaserClamp - A clamp to hold down material to a knife table
+     MagazineFile - Open magazine file
+     MakitaPowerSupply - Bench power supply powered with Maktia 18V battery or laptop power supply
+     Matrix - WS2812b matrix enclosure
+     OttoBody - Otto LC - a laser cut chassis for Otto DIY - body
+     OttoLegs - Otto LC - a laser cut chassis for Otto DIY - legs
+     OttoSoles - Foam soles for the OttO bot
+     PaperBox - 
+    Box made of paper, with lid.
+    
+     PhoneHolder - 
+    Smartphone desk holder
+    
+     PhotoFrame - 
+    3-layer photo frame with a slot at the top to slide matboard/acrylic/glass over the photo after glue-up.
+    
+     PizzaShovel - Pizza shovel with conveyor belt action
+     PoleHook - Hook for pole like things to be clamped to another pole
+     RoyalGame - The Royal Game of Ur
+     Shadowbox - The frame and spacers necessary to display a shadowbox / lightbox.
+     Shoe - Shoe shaped box
+     SkadisBoard - Customizable Ikea like pegboard
+     Spool - A simple spool
+     Stachel - Bass Recorder Endpin
+     Tetris - 3D Tetris shapes
+     TrafficLight - Traffic light
+     TriangleLamp - Triangle LED Lamp
+   
+,
+     Castle - Castle tower with two walls
+     OrganPipe - Rectangular organ pipe based on pipecalc
+     Planetary2 - Balanced force Difference Planetary Gear (not yet working properly)
+     Platonic - Platonic solids generator
+     Rotary - Rotary Attachment for engraving cylindrical objects in a laser cutter
+     SevenSegmentClock - Seven segment clock build with LED stripe
+     Silverware - 
+    Cuttlery stand with carrying grip
+    using flex for rounded corners
+    
+   
+,
+  
+        
+            
+            de
+en
+fr
+zh_CN
+
+            
+        
+        
+  Help
+  Home Page
+  Documentation
+  Sources
+
