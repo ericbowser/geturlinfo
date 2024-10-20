@@ -64,7 +64,7 @@ async function deleteFile(filePath) {
     });
 }
 
-// TODO - build full from relative for crawl efforts
+//TODO - build full from relative for crawl efforts
 const getLinks = (doc = {}) => {
     const linkArr = [];
     doc('a').each((i, link) => {
@@ -74,6 +74,7 @@ const getLinks = (doc = {}) => {
 
     return linkArr;
 }
+
 const getTitles = (doc = {}) => {
     const h1Arr = [];
     doc('h1').each((i, link) => {
@@ -143,7 +144,8 @@ async function getUrlInfo(url = '') {
         } 
         
         const htmlString = await fetchPage(url);
-
+        //
+        console.log('htmlString: ', htmlString);
         if (htmlString.length > 0) {
             const doc = await cheerio.load(htmlString);
 

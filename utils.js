@@ -5,3 +5,7 @@ const InputType = {
 };
 
 module.exports = {InputType};
+// Compare this snippet from file.js:
+// const fs = require('fs');
+// 
+// async
