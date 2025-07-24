@@ -69,7 +69,10 @@ const getLinks = (doc = {}) => {
     const linkArr = [];
     doc('a').each((i, link) => {
         const text = link.attribs.href;
-        linkArr.push(text);
+        if (text && text.length > 0) {
+            linkArr.push(text);
+
+        }
     });
 
     return linkArr;
@@ -77,18 +80,18 @@ const getLinks = (doc = {}) => {
 
 const getTitles = (doc = {}) => {
     const h1Arr = [];
-    doc('h1').each((i, link) => {
-        const text = link.name;
+    doc('h1').each((i, h1) => {
+        const text = h1.name;
         h1Arr.push(text);
     });
     const h2Arr = [];
-    doc('h2').each((i, link) => {
-        const text = link.name;
+    doc('h2').each((i, h2) => {
+        const text = h2.name;
         h2Arr.push(text);
     });
     const h3Arr = [];
-    doc('h3').each((i, link) => {
-        const text = link.name;
+    doc('h3').each((i, h3) => {
+        const text = h3.name;
         h3Arr.push(text);
     });
 
@@ -97,12 +100,12 @@ const getTitles = (doc = {}) => {
 
 const getListItems = (doc) => {
     // unordered list items
-    const unorderedListItems = doc('ul'); // Select all <p> elements
+    const unorderedListItems = doc('ul'); // Select all <p> element
     const unordered = [];
 
     unorderedListItems.each((index, element) => {
         const text = doc(element).text(); // Get the text content of each <p> element
-        unordered.push(`${text}\r\n`);
+        unordered.push(text);
     });
 
     // order list
@@ -110,7 +113,7 @@ const getListItems = (doc) => {
     const ordered = [];
     orderedList.each((index, element) => {
         const text = doc(element).text(); // Get the text content of each <p> element
-        ordered.push(`${text}\r\n`);
+        ordered.push(text);
     });
 
     return {unordered, ordered};
@@ -124,25 +127,35 @@ const getTextFromParagraphs = (doc) => {
         const text = doc(element).text(); // Get the text content of each <p> element
         textArr.push(text);
     });
-    const div = doc('div'); // Select all <p> elements
-    div.each((index, element) => {
-        const text = doc(element).text(); // Get the text content of each <p> element
-        textArr.push(text);
-    });
+    /*
+        const div = doc('div'); // Select all <p> elements
+        div.each((index, element) => {
+            const text = doc(element).text(); // Get the text content of each <p> element
+            textArr.push(`${text}\r\n`);
+        });
+    */
 
     return textArr;
 };
 
-let globalLinkList = [];
+let links = [];
 let globalContent = [];
 let globalTitles = [];
 
-async function getUrlInfo(url = '') {
+/*function createLinks(urls) {
+    const formatted =  urls.map(url => {
+        return `<a href="${url}" >${url}</a>`;
+    });
+    console.log(formatted);
+    return formatted;
+}*/
+
+async function getUrlInfo(url = 'http://localhost:32635/getUrlInfo') {
     try {
-        if (!url){
-            return null;  
-        } 
-        
+        if (!url) {
+            return null;
+        }
+
         const htmlString = await fetchPage(url);
         //
         console.log('htmlString: ', htmlString);
@@ -156,62 +169,67 @@ async function getUrlInfo(url = '') {
                 linkArr.forEach((link) => {
                     if (link.startsWith('http')) {
                         console.log('external link: ', link);
-                        globalLinkList.push(link);
+                        links.push(link);
                     }
                 })
             }
+
 
             const {h1Arr, h2Arr, h3Arr} = getTitles(doc);
             if (h1Arr && h1Arr.length > 0) {
                 h1Arr.forEach((title) => {
                     console.log('h1 title: ', title);
-                    globalTitles.push(title);
+                    globalTitles.push(title.trim());
                 })
             }
             if (h2Arr && h2Arr.length > 0) {
                 h2Arr.forEach((title) => {
                     console.log('h2 title: ', title);
-                    globalTitles.push(title);
+                    globalTitles.push(title.trim());
                 })
             }
             if (h3Arr && h3Arr.length > 0) {
                 h3Arr.forEach((title) => {
                     console.log('h3 title: ', title);
-                    globalTitles.push(title);
+                    globalTitles.push(title.trim());
                 })
             }
-            
+
             const content = getTextFromParagraphs(doc);
             if (content && content.length > 0) {
                 content.forEach((text) => {
                     console.log('paragraph text: ', text);
-                    globalContent.push(text);
+                    globalContent.push(text.trim());
                 })
             }
-            
+
             const {ordered, unordered} = getListItems(doc);
             if (ordered && ordered.length > 0) {
                 ordered.forEach((text) => {
                     console.log('ordered list text: ', text);
-                    globalContent.push(text);
+                    globalContent.push(text.trim());
                 })
             }
-            if(unordered && unordered.length > 0) {
+            if (unordered && unordered.length > 0) {
                 unordered.forEach((text) => {
                     console.log('unordered list text: ', text);
-                    globalContent.push(text);
+                    globalContent.push(text.trim());
                 })
             }
-            
-            await deleteFile('C:/Projects/scrape/html/scraped.txt');
-            globalLinkList.push(globalContent);
 
-            await writeFile('C:/Projects/scrape/html/scraped.txt', globalLinkList.join('\r\n'), (err) => {
+            if (fs.existsSync('./html/scraped.txt')) {
+                await deleteFile('C:/Projects/scrape/html/scraped.txt');
+            }
+
+            globalContent.push(globalTitles);
+            globalContent.push(links);
+
+            await writeFile('./html/scraped.txt', globalContent.join('\n\n'), (err) => {
                 console.log(err);
                 throw err;
             });
 
-            return linkArr;
+            return { globalContent, links };
         } else {
             console.log('html parsed not found');
         }

@@ -1,432 +1,828 @@
-https://hackaday.io/project/10649-boxespy
-https://www.gnu.org/licenses/gpl-3.0.en.html
-https://www.python.org/
-https://florianfesti.github.io/boxes/html/usermanual.html
-https://hackaday.io/project/10649-boxespy
-https://florianfesti.github.io/boxes/html/index.html
-https://github.com/florianfesti/boxes
-Create boxes and more with a laser cutter!,
+h1,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h3,h3,h3,h3,h3
 
-        Boxes.py is an Open Source box generator written in Python. It features both finished parametrized generators as well as a Python API for writing your own. It features finger and (flat) dovetail joints, flex cuts, holes and slots for screws, hinges, gears, pulleys and much more.
-,
+https://partners.comptia.org,https://www.comptia.org/about-us,https://help.comptia.org,https://login.comptia.org,https://connect.comptia.org,https://partners.comptia.org,https://www.comptia.org/about-us,https://www.comptia.org/contact-us,https://help.comptia.org,https://login.comptia.org,https://store.comptia.org/,https://store.comptia.org/,https://store.comptia.org/bundles/c/11295?facetValueFilter=tenant~user-type%3aindividual%2ctenant~certification%3acomptia-cloud&,https://store.comptia.org/comptia-cloud-cv0-004-voucher/p/CLD-004-TSTV-24-C,https://www.comptia.org/content/tools/comptia-and-dodm-8140,https://store.comptia.org/auto-add-to-cart?productCode=CLD-004-TSTV-24-C,https://certification.comptia.org/continuing-education,https://www.certmetrics.com/comptia/login.aspx,https://store.comptia.org/auto-add-to-cart?productCode=CLD-004-TSTV-24-C,https://store.comptia.org/auto-add-to-cart?productCode=CLD-004-BDEL-24-C,https://store.comptia.org/auto-add-to-cart?productCode=CLD-004-BDCO-24-C,https://store.comptia.org/auto-add-to-cart?productCode=CLD-003-TSTV-21-C,https://store.comptia.org/auto-add-to-cart?productCode=CLD-003-BDCO-24-C,https://store.comptia.org/auto-add-to-cart?productCode=CLD-003-BDBA-24-C,https://store.comptia.org/auto-add-to-cart?productCode=CLD-003-BDEP-24-C,https://store.comptia.org/auto-add-to-cart?productCode=CLD-003-BDEL-24-C,https://www.facebook.com/comptia,https://www.twitter.com/comptia,https://www.linkedin.com/company/comptia,https://www.youtube.com/@comptiaexplore,https://www.instagram.com/comptiaofficial/,https://open.spotify.com/user/69zrdapuhgxuofckbsuuzm80k?si=89172934b235442a&nd=1,https://store.comptia.org/,https://login.comptia.org,https://partners.comptia.org/
 
+EXAM CODE CV0-003 & CV0-004
 
-Boxes.py
-Create boxes and more with a laser cutter!
+CompTIA Cloud+ validates the essential skills to implement, maintain, optimize and troubleshoot cloud-based infrastructure services.
 
+The Premier Cloud Certification Uniquely Tailored to In-demand Job RolesCompTIA Cloud+ maps to real-world demands of cloud operations job roles, validating essential skills necessary for excelling in cloud environments.
 
-        Boxes.py is an Open Source box generator written in Python. It features both finished parametrized generators as well as a Python API for writing your own. It features finger and (flat) dovetail joints, flex cuts, holes and slots for screws, hinges, gears, pulleys and much more.
+Exclusively Validates Vendor-Neutral Cloud ExpertiseCompTIA Cloud+ is the only cloud certification on the market that confirms the technical and hands-on skills necessary for secure cloud operations across all platforms.
 
+Cloud+ Maps to NICE/DCWF Job RolesCompTIA Cloud+ maps to four NICE/DCWF work roles: Network Operations Specialist, Systems Administrator, Enterprise Architect and Security Architect.
 
+Analyze the different cloud models to design the best solution to support business requirements.
 
+Examine system requirements to successfully execute workload migrations to the cloud.
 
+Manage and optimize cloud operations, including automation, scaling, backup and recovery strategies, and lifecycle management of cloud resources.
 
+Implement comprehensive security measures, including vulnerability management, compliance adherence, and the deployment of security controls to safeguard cloud environments.
 
+Understand source control, continuous integration/continuous deployment (CI/CD) pipelines, system integration, and the use of various DevOps tools.
 
+Troubleshoot deployment, network and security issues related to cloud implementations.
 
+Cloud Systems Administrator
 
+Five years cumulativeThree years in information securityOne year in a CCSP domain
 
+Keep your certification up to date with CompTIA’s Continuing Education (CE) program. It’s designed to be a continued validation of your expertise and a tool to expand your skillset. It’s also the ace up your sleeve when you’re ready to take the next step in your career.
 
+Get the Most Out of Your CertificationInformation technology is an incredibly dynamic field, creating new opportunities and challenges every day. Participating in our Continuing Education program will enable you to stay current with new and evolving technologies and remain a sought-after IT and storage expert.
 
-🔍 
+The CompTIA Continuing Education ProgramYour CompTIA Cloud+ certification is good for three years from the date of your exam. The CE program allows you to extend your certification in three-year intervals through activities and training that relate to the content of your certification.
 
+It’s Easy to RenewYou can participate in a number of activities and training programs — including higher certifications — to renew your CompTIA Cloud+ certification. Collect at least 50 Continuing Education Units (CEUs) in three years, upload them to your certification account, and Cloud+ will automatically renew.
 
-Gallery
-Menu
+Want more details? Learn more about the CompTIA Continuing Education program.
 
-Boxes
-  ABox
-  AngledBox
-  BasedBox
-  BayonetBox
-  BrickSorter
-  CardBox
-  ClosedBox
-  Console
-  Console2
-  DiceBox
-  DisplayCase
-  ElectronicsBox
-  EuroRackSkiff
-  HalfBox
-  HingeBox
-  IntegratedHingeBox
-  Keypad
-  NotesHolder
-  OpenBox
-  PirateChest
-  Closed box with screw on top for mounting in a 10" rack.Rack10Box
-  Rack19Box
-  Half width 19inch rack unit for musical equipment.Rack19HalfWidth
-  RackBox
-  RegularBox
-  RegularStarBox
-  SideDoorHousing
-  SideHingeBox
-  SlidingDrawer
-  TwoPiece
-  UnevenHeightBox
-  UniversalBox
-Boxes with flex
-  BreadBox
-  DoubleFlexDoorBox
-  FlexBook
-  FlexBox
-  FlexBox2
-  FlexBox3
-  FlexBox4
-  FlexBox5
-  HeartBox
-  RoundedBox
-  ShutterBox
-  UBox
-Trays and Drawer Inserts
-  CompartmentBox
-  DividerTray
-  DrillBox
-  GridfinityBase
-  GridfinityDrillBox
-  GridfinityTrayLayout
-  SlantedTray
-  SmallPartsTray
-  SmallPartsTray2
-  TrayInsert
-  TrayLayout
-  TypeTray
-Shelves
-  BinTray
-  CardHolder
-  DiscRack
-  DisplayShelf
-  PaintStorage
-  SBCMicroRack
-  SpicesRack
-  StackableBin
-  StorageRack
-  StorageShelf
-  WineRack
-WallMounted
-  Box for DIN rail used in electrical junction boxesDinRailBox
-  KeyHolder
-  RollHolder
-  WallCaliper
-  WallChiselHolder
-  WallConsole
-  WallDrillBox
-  Shows the different edge types for wall systemsWallEdges
-  WallPinRow
-  WallPlaneHolder
-  WallPliersHolder
-  WallRack
-  WallRollHolder
-  WallSlottedHolder
-  WallStairs
-  WallTypeTray
-  WallWrenchHolder
-Hole patterns
-  FanHole
-  FrontPanel
-  HolePattern
-  NemaPattern
-  SevenSegmentPattern
-Parts and Samples
-  BurnTest
-  ConcaveKnob
-  FillTest
-  FlexTest
-  FlexTest2
-  GearBox
-  GearsGears
-  LBeam
-  LaserHoldfast
-  Mounting bracket for a Nema motorNemaMount
-  Planetary Gear with possibly multiple identical stagesPlanetary
-  Timing belt pulleys for different profilesPulley
-  RectangularWall
-  RobotArm
-  Round knob serrated outside for better grippingWavyKnob
-Misc
-  AgricolaInsert
-  AirPurifier
-  AllEdges
-  AngledCutJig
-  Arcade
-  Atreus21
-  BirdHouse
-  BookHolder
-  Stack bottles in a fridgeBottleStack
-  BottleTag
-  CanStorage
-  Compact filter for activated char coal pelletsCarbonFilter
-  CoffeeCapsuleHolder
-  CoinBankSafe
-  CoinDisplay
-  Desksign
-  DiceTower
-  Dispenser
-  Display
-  DrillStand
-  FilamentSpool
-  Folder
-  Hook
-  JointPanel
-  LaptopStand
-  LaserClamp
-  MagazineFile
-  MakitaPowerSupply
-  Matrix
-  OttoBody
-  OttoLegs
-  OttoSoles
-  PaperBox
-  PhoneHolder
-  PhotoFrame
-  PizzaShovel
-  Hook for pole like things to be clamped to another polePoleHook
-  RoyalGame
-  Shadowbox
-  Shoe
-  SkadisBoard
-  Spool
-  Stachel
-  Tetris
-  TrafficLight
-  Triangle LED LampTriangleLamp
-Unstable
-  Castle
-  Rectangular organ pipe based on pipecalcOrganPipe
-  Balanced force Difference Planetary Gear (not yet working properly)Planetary2
-  Platonic
-  Rotary
-  Seven segment clock build with LED stripeSevenSegmentClock
-  Silverware
+50
 
-
-        ,
-
-Boxes.py
-Create boxes and more with a laser cutter!
-
-
-        Boxes.py is an Open Source box generator written in Python. It features both finished parametrized generators as well as a Python API for writing your own. It features finger and (flat) dovetail joints, flex cuts, holes and slots for screws, hinges, gears, pulleys and much more.
-
-,
-
-,
+CEUs needed for renewal
 
 
 
+Includes
 
-🔍 
 
 
-Gallery
-Menu
+Includes
 
-Boxes
-  ABox
-  AngledBox
-  BasedBox
-  BayonetBox
-  BrickSorter
-  CardBox
-  ClosedBox
-  Console
-  Console2
-  DiceBox
-  DisplayCase
-  ElectronicsBox
-  EuroRackSkiff
-  HalfBox
-  HingeBox
-  IntegratedHingeBox
-  Keypad
-  NotesHolder
-  OpenBox
-  PirateChest
-  Closed box with screw on top for mounting in a 10" rack.Rack10Box
-  Rack19Box
-  Half width 19inch rack unit for musical equipment.Rack19HalfWidth
-  RackBox
-  RegularBox
-  RegularStarBox
-  SideDoorHousing
-  SideHingeBox
-  SlidingDrawer
-  TwoPiece
-  UnevenHeightBox
-  UniversalBox
-Boxes with flex
-  BreadBox
-  DoubleFlexDoorBox
-  FlexBook
-  FlexBox
-  FlexBox2
-  FlexBox3
-  FlexBox4
-  FlexBox5
-  HeartBox
-  RoundedBox
-  ShutterBox
-  UBox
-Trays and Drawer Inserts
-  CompartmentBox
-  DividerTray
-  DrillBox
-  GridfinityBase
-  GridfinityDrillBox
-  GridfinityTrayLayout
-  SlantedTray
-  SmallPartsTray
-  SmallPartsTray2
-  TrayInsert
-  TrayLayout
-  TypeTray
-Shelves
-  BinTray
-  CardHolder
-  DiscRack
-  DisplayShelf
-  PaintStorage
-  SBCMicroRack
-  SpicesRack
-  StackableBin
-  StorageRack
-  StorageShelf
-  WineRack
-WallMounted
-  Box for DIN rail used in electrical junction boxesDinRailBox
-  KeyHolder
-  RollHolder
-  WallCaliper
-  WallChiselHolder
-  WallConsole
-  WallDrillBox
-  Shows the different edge types for wall systemsWallEdges
-  WallPinRow
-  WallPlaneHolder
-  WallPliersHolder
-  WallRack
-  WallRollHolder
-  WallSlottedHolder
-  WallStairs
-  WallTypeTray
-  WallWrenchHolder
-Hole patterns
-  FanHole
-  FrontPanel
-  HolePattern
-  NemaPattern
-  SevenSegmentPattern
-Parts and Samples
-  BurnTest
-  ConcaveKnob
-  FillTest
-  FlexTest
-  FlexTest2
-  GearBox
-  GearsGears
-  LBeam
-  LaserHoldfast
-  Mounting bracket for a Nema motorNemaMount
-  Planetary Gear with possibly multiple identical stagesPlanetary
-  Timing belt pulleys for different profilesPulley
-  RectangularWall
-  RobotArm
-  Round knob serrated outside for better grippingWavyKnob
-Misc
-  AgricolaInsert
-  AirPurifier
-  AllEdges
-  AngledCutJig
-  Arcade
-  Atreus21
-  BirdHouse
-  BookHolder
-  Stack bottles in a fridgeBottleStack
-  BottleTag
-  CanStorage
-  Compact filter for activated char coal pelletsCarbonFilter
-  CoffeeCapsuleHolder
-  CoinBankSafe
-  CoinDisplay
-  Desksign
-  DiceTower
-  Dispenser
-  Display
-  DrillStand
-  FilamentSpool
-  Folder
-  Hook
-  JointPanel
-  LaptopStand
-  LaserClamp
-  MagazineFile
-  MakitaPowerSupply
-  Matrix
-  OttoBody
-  OttoLegs
-  OttoSoles
-  PaperBox
-  PhoneHolder
-  PhotoFrame
-  PizzaShovel
-  Hook for pole like things to be clamped to another polePoleHook
-  RoyalGame
-  Shadowbox
-  Shoe
-  SkadisBoard
-  Spool
-  Stachel
-  Tetris
-  TrafficLight
-  Triangle LED LampTriangleLamp
-Unstable
-  Castle
-  Rectangular organ pipe based on pipecalcOrganPipe
-  Balanced force Difference Planetary Gear (not yet working properly)Planetary2
-  Platonic
-  Rotary
-  Seven segment clock build with LED stripeSevenSegmentClock
-  Silverware
 
-,,
-🔍 
-,
-Gallery
-Menu
-,,,
 
-  
-        
-            
-            de
-en
-fr
-zh_CN
+Includes
 
-            
-        
-        
-  Help
-  Home Page
-  Documentation
-  Sources
 
-,
-  
-        
-            
-            de
-en
-fr
-zh_CN
 
-            
-        
-        
-  Help
-  Home Page
-  Documentation
-  Sources
+Includes
 
+
+
+Includes
+
+
+
+Includes
+
+
+
+Includes
+
+
+
+Includes
+
+Certifications
+                                    
+
+                                    
+                                        
+                                            
+                                            Certifications
+                                            
+                                        
+
+                                        
+                                            Certifications
+                                            
+                                                A+
+                                                CASP+
+                                                Cloud+
+                                                Cloud Essentials+
+                                                CloudNetX
+                                                CySA+
+                                                Data+
+                                                DataSys+
+                                                DataX
+                                                ITF+
+                                                Linux+
+                                                Network+
+                                                PenTest+
+                                                Project+
+                                                Server+
+                                                Security+
+                                                SecurityX
+                                                Tech+
+                                            
+                                        
+
+                                        
+                                            Exam Development
+                                            
+                                                Overview
+                                                How to Apply
+                                                Currently Recruiting
+                                                Current CompTIA SMEs
+                                                Refer a Friend
+                                            
+                                        
+
+                                        
+                                             Certification Resources
+                                            
+
+                                                4 Steps to Certification
+                                                Which Certification Is Right for Me?
+                                                CompTIA Digital Badges
+                                                Certified Team Award
+                                            
+                                        
+                                    
+                                
+
+                                
+                                
+                                    Training
+
+                                    
+                                        
+                                            
+                                            Training
+                                            
+                                        
+
+                                        
+                                            By Certification
+
+                                            
+                                                CompTIA A+ Training
+                                                CompTIA Network+ Training
+                                                CompTIA Security+ Training
+                                                CompTIA CASP+ Training
+                                                View All Certs
+                                                 
+                                                TestOut Training Powered by CompTIA
+                                            
+                                        
+
+                                        
+                                            For Individuals
+
+                                            
+                                                eLearning
+                                                Virtual Labs
+
+                                                Live Online Training
+
+                                                Exam Prep
+                                                CompTIA Books
+                                            
+                                        
+
+                                        
+                                            For Groups
+                                            
+                                                Enterprise
+                                                Workforce Development Solutions
+                                                Academic Higher Ed
+                                                Academic Secondary Ed
+                                                Academic/Government
+                                                Why CompTIA Training Solutions
+                                            
+                                        
+
+                                        
+                                            Training Resources
+
+                                            
+                                                Practice Test
+                                                Exam Objectives
+                                                CertMaster Learn + Labs Trial
+                                                CertMaster Practice Trial
+                                                CompTIA Book Samples
+                                                Authorized Partner Program
+                                                CompTIA + Testout
+                                            
+                                        
+                                    
+
+                                
+
+                                
+                                
+                                    Testing
+
+                                    
+                                        
+                                            
+                                            Testing
+                                            
+                                        
+
+                                        
+                                            Testing Options
+
+                                            
+                                                About Testing Options
+                                                In-Person Exams
+                                                Online Exams
+                                            
+                                        
+
+                                        
+                                            Exam Vouchers
+
+                                            
+                                                About Exam Pricing
+                                                Buy Exam Vouchers
+                                            
+                                        
+
+                                        
+                                            Testing Policies and Procedures
+
+                                            
+                                                About Testing Policies
+                                                Exam Development Process
+                                                Exam Security Hotline
+                                            
+                                        
+                                    
+
+                                
+
+                                
+                                
+                                    Continuing Education
+
+                                    
+                                        
+                                            
+                                            Continuing Education
+                                            
+                                        
+
+                                        
+                                            Learn About the Renewal Process
+                                            
+                                                Why Renew?
+                                                Overview
+                                                How to Renew
+                                                Continuing Education Fees
+                                                Continuing Education Units (CEUs)
+                                                Multiple Renewals
+                                                DoD Employees and Contractors
+                                            
+                                        
+
+                                        
+                                            Choose Your Renewal Path
+
+                                            
+                                                Renew with a Single Activity
+                                                Renew with Multiple Activities
+                                                What Renewal Options Are Available to You?
+                                            
+                                        
+                                    
+                                
+
+                                
+                                
+                                    Resources
+
+                                    
+                                        
+                                            
+                                            Resources
+                                            
+                                        
+
+                                        
+                                            Trends & Analysis
+
+                                            
+                                                Cloud Computing
+                                                Computer Networks
+                                                Cybersecurity
+                                            
+                                        
+
+                                        
+                                             
+
+                                            
+                                                Data and Analytics
+                                                Mental Health Resources
+                                                IT Career Center
+                                            
+                                        
+
+                                        
+                                             
+
+                                            
+                                                IT Support and Help Desk
+                                                IT Workforce
+                                            
+                                        
+
+                                        
+                                            IT Career Tools
+
+                                            
+                                                Career Roadmap
+                                                Certifications and Jobs
+                                                IT Salary Calculator
+                                                CompTIA and NICE
+                                                CompTIA and DoDM 8140.03
+                                            
+                                        
+
+                                        
+                                            CompTIA Blog
+                                        
+                                    
+                                
+
+                                
+                                
+                                    Career Changers
+
+                                    
+                                        
+                                            
+                                            Career Changers
+                                            
+                                        
+
+                                        
+                                            Plan Your Career Change
+                                        
+
+                                        
+                                            Learn About Careers in IT
+                                        
+
+                                        
+                                            Change Careers to IT
+                                        
+
+                                        
+                                            Take Free Career Quiz
+                                        
+
+                                    
+                                
+
+                                
+                                    
+                                        
+                                            Search
+                                            
+                                        
+                                        
+                                            
+                                                
+                                                    
+                                                    
+                                                
+                                                
+                                                    Most Popular Search Results
+                                                    
+                                                        Security
+                                                        CompTIA A+
+                                                        Education
+                                                        Network
+                                                        Roadmap
+                                                        CertMaster
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                
+
+                                Log in
+                                Corporate Membership
+                                Partners
+                                About Us
+                                Newsroom
+                                Contact Us
+                                Help
+
+Certifications
+                                            
+                                        
+
+                                        
+                                            Certifications
+                                            
+                                                A+
+                                                CASP+
+                                                Cloud+
+                                                Cloud Essentials+
+                                                CloudNetX
+                                                CySA+
+                                                Data+
+                                                DataSys+
+                                                DataX
+                                                ITF+
+                                                Linux+
+                                                Network+
+                                                PenTest+
+                                                Project+
+                                                Server+
+                                                Security+
+                                                SecurityX
+                                                Tech+
+                                            
+                                        
+
+                                        
+                                            Exam Development
+                                            
+                                                Overview
+                                                How to Apply
+                                                Currently Recruiting
+                                                Current CompTIA SMEs
+                                                Refer a Friend
+                                            
+                                        
+
+                                        
+                                             Certification Resources
+                                            
+
+                                                4 Steps to Certification
+                                                Which Certification Is Right for Me?
+                                                CompTIA Digital Badges
+                                                Certified Team Award
+
+A+
+                                                CASP+
+                                                Cloud+
+                                                Cloud Essentials+
+                                                CloudNetX
+                                                CySA+
+                                                Data+
+                                                DataSys+
+                                                DataX
+                                                ITF+
+                                                Linux+
+                                                Network+
+                                                PenTest+
+                                                Project+
+                                                Server+
+                                                Security+
+                                                SecurityX
+                                                Tech+
+
+Overview
+                                                How to Apply
+                                                Currently Recruiting
+                                                Current CompTIA SMEs
+                                                Refer a Friend
+
+4 Steps to Certification
+                                                Which Certification Is Right for Me?
+                                                CompTIA Digital Badges
+                                                Certified Team Award
+
+Training
+                                            
+                                        
+
+                                        
+                                            By Certification
+
+                                            
+                                                CompTIA A+ Training
+                                                CompTIA Network+ Training
+                                                CompTIA Security+ Training
+                                                CompTIA CASP+ Training
+                                                View All Certs
+                                                 
+                                                TestOut Training Powered by CompTIA
+                                            
+                                        
+
+                                        
+                                            For Individuals
+
+                                            
+                                                eLearning
+                                                Virtual Labs
+
+                                                Live Online Training
+
+                                                Exam Prep
+                                                CompTIA Books
+                                            
+                                        
+
+                                        
+                                            For Groups
+                                            
+                                                Enterprise
+                                                Workforce Development Solutions
+                                                Academic Higher Ed
+                                                Academic Secondary Ed
+                                                Academic/Government
+                                                Why CompTIA Training Solutions
+                                            
+                                        
+
+                                        
+                                            Training Resources
+
+                                            
+                                                Practice Test
+                                                Exam Objectives
+                                                CertMaster Learn + Labs Trial
+                                                CertMaster Practice Trial
+                                                CompTIA Book Samples
+                                                Authorized Partner Program
+                                                CompTIA + Testout
+
+CompTIA A+ Training
+                                                CompTIA Network+ Training
+                                                CompTIA Security+ Training
+                                                CompTIA CASP+ Training
+                                                View All Certs
+                                                 
+                                                TestOut Training Powered by CompTIA
+
+eLearning
+                                                Virtual Labs
+
+                                                Live Online Training
+
+                                                Exam Prep
+                                                CompTIA Books
+
+Enterprise
+                                                Workforce Development Solutions
+                                                Academic Higher Ed
+                                                Academic Secondary Ed
+                                                Academic/Government
+                                                Why CompTIA Training Solutions
+
+Practice Test
+                                                Exam Objectives
+                                                CertMaster Learn + Labs Trial
+                                                CertMaster Practice Trial
+                                                CompTIA Book Samples
+                                                Authorized Partner Program
+                                                CompTIA + Testout
+
+Testing
+                                            
+                                        
+
+                                        
+                                            Testing Options
+
+                                            
+                                                About Testing Options
+                                                In-Person Exams
+                                                Online Exams
+                                            
+                                        
+
+                                        
+                                            Exam Vouchers
+
+                                            
+                                                About Exam Pricing
+                                                Buy Exam Vouchers
+                                            
+                                        
+
+                                        
+                                            Testing Policies and Procedures
+
+                                            
+                                                About Testing Policies
+                                                Exam Development Process
+                                                Exam Security Hotline
+
+About Testing Options
+                                                In-Person Exams
+                                                Online Exams
+
+About Exam Pricing
+                                                Buy Exam Vouchers
+
+About Testing Policies
+                                                Exam Development Process
+                                                Exam Security Hotline
+
+Continuing Education
+                                            
+                                        
+
+                                        
+                                            Learn About the Renewal Process
+                                            
+                                                Why Renew?
+                                                Overview
+                                                How to Renew
+                                                Continuing Education Fees
+                                                Continuing Education Units (CEUs)
+                                                Multiple Renewals
+                                                DoD Employees and Contractors
+                                            
+                                        
+
+                                        
+                                            Choose Your Renewal Path
+
+                                            
+                                                Renew with a Single Activity
+                                                Renew with Multiple Activities
+                                                What Renewal Options Are Available to You?
+
+Why Renew?
+                                                Overview
+                                                How to Renew
+                                                Continuing Education Fees
+                                                Continuing Education Units (CEUs)
+                                                Multiple Renewals
+                                                DoD Employees and Contractors
+
+Renew with a Single Activity
+                                                Renew with Multiple Activities
+                                                What Renewal Options Are Available to You?
+
+Resources
+                                            
+                                        
+
+                                        
+                                            Trends & Analysis
+
+                                            
+                                                Cloud Computing
+                                                Computer Networks
+                                                Cybersecurity
+                                            
+                                        
+
+                                        
+                                             
+
+                                            
+                                                Data and Analytics
+                                                Mental Health Resources
+                                                IT Career Center
+                                            
+                                        
+
+                                        
+                                             
+
+                                            
+                                                IT Support and Help Desk
+                                                IT Workforce
+                                            
+                                        
+
+                                        
+                                            IT Career Tools
+
+                                            
+                                                Career Roadmap
+                                                Certifications and Jobs
+                                                IT Salary Calculator
+                                                CompTIA and NICE
+                                                CompTIA and DoDM 8140.03
+                                            
+                                        
+
+                                        
+                                            CompTIA Blog
+
+Cloud Computing
+                                                Computer Networks
+                                                Cybersecurity
+
+Data and Analytics
+                                                Mental Health Resources
+                                                IT Career Center
+
+IT Support and Help Desk
+                                                IT Workforce
+
+Career Roadmap
+                                                Certifications and Jobs
+                                                IT Salary Calculator
+                                                CompTIA and NICE
+                                                CompTIA and DoDM 8140.03
+
+Career Changers
+                                            
+                                        
+
+                                        
+                                            Plan Your Career Change
+                                        
+
+                                        
+                                            Learn About Careers in IT
+                                        
+
+                                        
+                                            Change Careers to IT
+                                        
+
+                                        
+                                            Take Free Career Quiz
+
+Search
+                                            
+                                        
+                                        
+                                            
+                                                
+                                                    
+                                                    
+                                                
+                                                
+                                                    Most Popular Search Results
+                                                    
+                                                        Security
+                                                        CompTIA A+
+                                                        Education
+                                                        Network
+                                                        Roadmap
+                                                        CertMaster
+
+Security
+                                                        CompTIA A+
+                                                        Education
+                                                        Network
+                                                        Roadmap
+                                                        CertMaster
+
+
+                            
+                                
+                                    3
+
+
+                            
+                                
+                                    3
+
+Buy Now
+
+    Overview
+    Exam Details
+    Preparation
+    Renewal
+    Buy Now
+
+Understand cloud architecture and design concepts.
+Implement and maintain a secure cloud environment.
+Successfully provision and configure cloud resources.
+Demonstrate the ability to manage operations throughout the cloud environment life cycle using observability, scaling, and automation.
+Understand fundamental DevOps concepts related to deployment and integration.
+Troubleshoot common issues related to cloud management.
+
+Testing Centers
+Online Testing
+
+1 Exam Voucher
+
+Exam Voucher + Retake
+	Integrated CertMaster Perform + CertMaster Labs
+
+Exam Voucher + Retake
+	Integrated CertMaster Perform + CertMaster Labs
+	CompTIA CertMaster Practice
+
+
+
+1 Exam Voucher
+
+Exam Voucher + Retake
+	Integrated CertMaster Learn + CompTIA Labs
+	CompTIA CertMaster Practice
+
+Exam Voucher + RetakeSelf-Paced Study Guide
+
+Exam Voucher + RetakeSelf-Paced Study GuideCompTIA CertMaster Practice
+
+Exam Voucher + Retake
+	Integrated CertMaster Learn + CompTIA Labs
+
+
+
+About UsNewsroomContact UsBlog
+
+
+
+CompTIA IT CertificationsStoreAccount Login
+
+CompTIA Authorized Partner Program
+
+Copyright © CompTIA, Inc. All Rights Reserved
+    Sitemap
+    Legal
+
+h1,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h2,h3,h3,h3,h3,h3
+
+https://partners.comptia.org,https://www.comptia.org/about-us,https://help.comptia.org,https://login.comptia.org,https://connect.comptia.org,https://partners.comptia.org,https://www.comptia.org/about-us,https://www.comptia.org/contact-us,https://help.comptia.org,https://login.comptia.org,https://store.comptia.org/,https://store.comptia.org/,https://store.comptia.org/bundles/c/11295?facetValueFilter=tenant~user-type%3aindividual%2ctenant~certification%3acomptia-cloud&,https://store.comptia.org/comptia-cloud-cv0-004-voucher/p/CLD-004-TSTV-24-C,https://www.comptia.org/content/tools/comptia-and-dodm-8140,https://store.comptia.org/auto-add-to-cart?productCode=CLD-004-TSTV-24-C,https://certification.comptia.org/continuing-education,https://www.certmetrics.com/comptia/login.aspx,https://store.comptia.org/auto-add-to-cart?productCode=CLD-004-TSTV-24-C,https://store.comptia.org/auto-add-to-cart?productCode=CLD-004-BDEL-24-C,https://store.comptia.org/auto-add-to-cart?productCode=CLD-004-BDCO-24-C,https://store.comptia.org/auto-add-to-cart?productCode=CLD-003-TSTV-21-C,https://store.comptia.org/auto-add-to-cart?productCode=CLD-003-BDCO-24-C,https://store.comptia.org/auto-add-to-cart?productCode=CLD-003-BDBA-24-C,https://store.comptia.org/auto-add-to-cart?productCode=CLD-003-BDEP-24-C,https://store.comptia.org/auto-add-to-cart?productCode=CLD-003-BDEL-24-C,https://www.facebook.com/comptia,https://www.twitter.com/comptia,https://www.linkedin.com/company/comptia,https://www.youtube.com/@comptiaexplore,https://www.instagram.com/comptiaofficial/,https://open.spotify.com/user/69zrdapuhgxuofckbsuuzm80k?si=89172934b235442a&nd=1,https://store.comptia.org/,https://login.comptia.org,https://partners.comptia.org/
