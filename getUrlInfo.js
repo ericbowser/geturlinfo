@@ -1,245 +1,161 @@
+// Debug version - replace your getUrlInfo.js temporarily to see what's happening
+
 const cheerio = require('cheerio');
-const fs = require('fs');
-const {exec} = require('child_process'); // Child process module to execute system commands
+const fs = require('fs').promises;
 const {get} = require('axios');
 
-// Function to validate URL format
 function isValidUrl(url) {
-    const urlPattern = new RegExp('^(https?:\\/\\/)?' + // protocol
-        '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|' + // domain name
-        '((\\d{1,3}\\.){3}\\d{1,3}))' + // OR ip (v4) address
-        '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' + // port and path
-        '(\\?[;&a-z\\d%_.~+=-]*)?' + // query string
-        '(\\#[-a-z\\d_]*)?$', 'i'); // fragment locator
+    const urlPattern = new RegExp('^(https?:\\/\\/)?' +
+      '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|' +
+      '((\\d{1,3}\\.){3}\\d{1,3}))' +
+      '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' +
+      '(\\?[;&a-z\\d%_.~+=-]*)?' +
+      '(\\#[-a-z\\d_]*)?$', 'i');
     return !!urlPattern.test(url);
 }
 
 async function fetchPage(url) {
     try {
+        console.log('🔍 Fetching URL:', url);
+
         if (!isValidUrl(url)) {
-            console.error('Invalid URL:', url);
+            console.error('❌ Invalid URL:', url);
             return null;
         }
-        const {data} = await get(url, {responseType: 'text'});
-        return data;
-    } catch (error) {
-        console.error(error);
-        throw error;
-    }
-}
 
-// Write text to file
-async function writeFile(filePath, fileContent) {
-    try {
-        await fs.writeFile(filePath, fileContent, 'utf-8', (err) => {
-            if (err) {
-                return console.error(`Error writing to file: ${err.message}`);
-            }
-            console.log('File written successfully.');
-
-            // Use 'start' for Windows, 'open' for macOS, 'xdg-open' for Linux
-            const openCmd = process.platform === 'win32' ? 'start' : process.platform === 'darwin' ? 'open' : 'xdg-open';
-            exec(`${openCmd} ${filePath}`, (err) => {
-                if (err) {
-                    console.error('Error opening file', err);
-                } else {
-                    console.log('File opened successfully');
-                }
-            });
+        // Add headers to look more like a real browser
+        const response = await get(url, {
+            responseType: 'text',
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.5',
+                'Accept-Encoding': 'gzip, deflate, br',
+                'Connection': 'keep-alive',
+                'Upgrade-Insecure-Requests': '1',
+            },
+            timeout: 10000
         });
 
+        console.log('✅ Response received');
+        console.log('📊 Status:', response.status);
+        console.log('📏 Content length:', response.data.length);
+        console.log('🔤 Content type:', response.headers['content-type']);
+        console.log('📝 First 500 chars:', response.data.substring(0, 500));
+
+        return response.data;
     } catch (error) {
-        console.error(error);
+        console.error('❌ Fetch error:', error.message);
+        if (error.response) {
+            console.error('📊 Error status:', error.response.status);
+            console.error('📝 Error data:', error.response.data?.substring(0, 200));
+        }
         throw error;
     }
 }
 
-async function deleteFile(filePath) {
-    await fs.unlink(filePath, (err) => {
-        if (err) {
-            console.error('Error deleting the file:', err);
-            return;
-        }
-        console.log('File deleted successfully');
-    });
-}
-
-//TODO - build full from relative for crawl efforts
-const getLinks = (doc = {}) => {
+const getLinks = (doc, baseUrl) => {
+    console.log('🔗 Looking for links...');
     const linkArr = [];
-    doc('a').each((i, link) => {
-        const text = link.attribs.href;
-        if (text && text.length > 0) {
-            linkArr.push(text);
 
+    doc('a[href]').each((i, link) => {
+        const href = link.attribs.href;
+        const text = doc(link).text().trim();
+
+        if (href && href.length > 0) {
+            try {
+                const absoluteUrl = new URL(href, baseUrl).href;
+                linkArr.push({
+                    url: absoluteUrl,
+                    text: text || '[no text]',
+                    isExternal: href.startsWith('http')
+                });
+            } catch (e) {
+                console.log('⚠️ Skipping invalid URL:', href);
+            }
         }
     });
 
+    console.log(`🔗 Found ${linkArr.length} links`);
     return linkArr;
 }
 
-const getTitles = (doc = {}) => {
-    const h1Arr = [];
-    doc('h1').each((i, h1) => {
-        const text = h1.name;
-        h1Arr.push(text);
-    });
-    const h2Arr = [];
-    doc('h2').each((i, h2) => {
-        const text = h2.name;
-        h2Arr.push(text);
-    });
-    const h3Arr = [];
-    doc('h3').each((i, h3) => {
-        const text = h3.name;
-        h3Arr.push(text);
+const getTitles = (doc) => {
+    console.log('📋 Looking for headings...');
+    const titles = [];
+
+    doc('h1, h2, h3, h4, h5, h6').each((i, heading) => {
+        const text = doc(heading).text().trim();
+        if (text) {
+            titles.push({
+                level: parseInt(heading.tagName[1]),
+                text: text
+            });
+        }
     });
 
-    return {h1Arr, h2Arr, h3Arr};
+    console.log(`📋 Found ${titles.length} headings`);
+    if (titles.length > 0) {
+        console.log('📋 First few headings:', titles.slice(0, 3));
+    }
+    return titles;
 }
 
-const getListItems = (doc) => {
-    // unordered list items
-    const unorderedListItems = doc('ul'); // Select all <p> element
-    const unordered = [];
-
-    unorderedListItems.each((index, element) => {
-        const text = doc(element).text(); // Get the text content of each <p> element
-        unordered.push(text);
-    });
-
-    // order list
-    const orderedList = doc('ol'); // Select all <p> elements
-    const ordered = [];
-    orderedList.each((index, element) => {
-        const text = doc(element).text(); // Get the text content of each <p> element
-        ordered.push(text);
-    });
-
-    return {unordered, ordered};
-};
-
 const getTextFromParagraphs = (doc) => {
-    const paragraphs = doc('p'); // Select all <p> elements
-    let textArr = [];
+    console.log('📝 Looking for paragraphs...');
+    const paragraphs = [];
 
-    paragraphs.each((index, element) => {
-        const text = doc(element).text(); // Get the text content of each <p> element
-        textArr.push(text);
+    doc('p').each((index, element) => {
+        const text = doc(element).text().trim();
+        if (text && text.length > 10) { // Only meaningful paragraphs
+            paragraphs.push(text);
+        }
     });
-    /*
-        const div = doc('div'); // Select all <p> elements
-        div.each((index, element) => {
-            const text = doc(element).text(); // Get the text content of each <p> element
-            textArr.push(`${text}\r\n`);
-        });
-    */
 
-    return textArr;
+    console.log(`📝 Found ${paragraphs.length} paragraphs`);
+    return paragraphs;
 };
 
-let links = [];
-let globalContent = [];
-let globalTitles = [];
-
-/*function createLinks(urls) {
-    const formatted =  urls.map(url => {
-        return `<a href="${url}" >${url}</a>`;
-    });
-    console.log(formatted);
-    return formatted;
-}*/
-
-async function getUrlInfo(url = 'http://localhost:32635/getUrlInfo') {
+async function getUrlInfo(url) {
     try {
+        console.log('🚀 Starting scrape for:', url);
+
         if (!url) {
-            return null;
+            throw new Error('URL is required');
         }
 
         const htmlString = await fetchPage(url);
-        //
-        console.log('htmlString: ', htmlString);
-        if (htmlString.length > 0) {
-            const doc = await cheerio.load(htmlString);
-
-            console.log('document parsed: ', doc.length);
-
-            const linkArr = getLinks(doc);
-            if (linkArr && linkArr.length > 0) {
-                linkArr.forEach((link) => {
-                    if (link.startsWith('http')) {
-                        console.log('external link: ', link);
-                        links.push(link);
-                    }
-                })
-            }
-
-
-            const {h1Arr, h2Arr, h3Arr} = getTitles(doc);
-            if (h1Arr && h1Arr.length > 0) {
-                h1Arr.forEach((title) => {
-                    console.log('h1 title: ', title);
-                    globalTitles.push(title.trim());
-                })
-            }
-            if (h2Arr && h2Arr.length > 0) {
-                h2Arr.forEach((title) => {
-                    console.log('h2 title: ', title);
-                    globalTitles.push(title.trim());
-                })
-            }
-            if (h3Arr && h3Arr.length > 0) {
-                h3Arr.forEach((title) => {
-                    console.log('h3 title: ', title);
-                    globalTitles.push(title.trim());
-                })
-            }
-
-            const content = getTextFromParagraphs(doc);
-            if (content && content.length > 0) {
-                content.forEach((text) => {
-                    console.log('paragraph text: ', text);
-                    globalContent.push(text.trim());
-                })
-            }
-
-            const {ordered, unordered} = getListItems(doc);
-            if (ordered && ordered.length > 0) {
-                ordered.forEach((text) => {
-                    console.log('ordered list text: ', text);
-                    globalContent.push(text.trim());
-                })
-            }
-            if (unordered && unordered.length > 0) {
-                unordered.forEach((text) => {
-                    console.log('unordered list text: ', text);
-                    globalContent.push(text.trim());
-                })
-            }
-
-            if (fs.existsSync('./html/scraped.txt')) {
-                await deleteFile('C:/Projects/scrape/html/scraped.txt');
-            }
-
-            globalContent.push(globalTitles);
-            globalContent.push(links);
-
-            await writeFile('./html/scraped.txt', globalContent.join('\n\n'), (err) => {
-                console.log(err);
-                throw err;
-            });
-
-            return { globalContent, links };
-        } else {
-            console.log('html parsed not found');
+        if (!htmlString || htmlString.length === 0) {
+            throw new Error('No HTML content received');
         }
-    } catch
-        (error) {
-        if (error.code === 'ENOENT') {
-            console.log('HTML file not found');
-        } else {
-            console.error('An error occurred:', error);
-        }
+
+        console.log('🔍 Parsing HTML...');
+        const doc = cheerio.load(htmlString);
+
+        // Check what elements exist
+        console.log('📊 Document stats:');
+        console.log('  - Total elements:', doc('*').length);
+        console.log('  - Links found:', doc('a').length);
+        console.log('  - Paragraphs found:', doc('p').length);
+        console.log('  - Headings found:', doc('h1, h2, h3, h4, h5, h6').length);
+        console.log('  - Title:', doc('title').first().text().trim());
+
+        const links = getLinks(doc, url);
+        const titles = getTitles(doc);
+        const paragraphs = getTextFromParagraphs(doc);
+
+        const result = {
+            links: links,
+            globalContent: [...paragraphs, ...titles.map(t => t.text)]
+        };
+
+        console.log('✅ Scraping complete!');
+        console.log(`📊 Final results: ${result.links.length} links, ${result.globalContent.length} content items`);
+
+        return result;
+
+    } catch (error) {
+        console.error('💥 Error in getUrlInfo:', error.message);
         throw error;
     }
 }

@@ -14,6 +14,9 @@ const port = process.env.PORT || 3005;
 router.post('/api/getUrlInfo', async (req, res) => {
     console.log('param: ', req.body.url);
     console.log('url', req.body.url);
+    if (!req.body.url) {
+        return res.status(400).send({...req.body});
+    } 
     try {
         const result = await getUrlInfo(req.body.url);
         const data = {

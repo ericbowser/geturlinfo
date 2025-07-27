@@ -1,0 +1,1401 @@
+{
+  "url": "https://medcerts.com/certifications/",
+  "scrapedAt": "2025-07-24T08:46:22.063Z",
+  "title": "Career and Job Certifications - MedCerts",
+  "links": [
+    {
+      "url": "https://medcerts.com/certifications/#content",
+      "text": "Skip to content",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts-cr.virtualadviser.com/",
+      "text": "Take Free Quiz",
+      "isExternal": true
+    },
+    {
+      "url": "https://partners.medcerts.com/",
+      "text": "Partner Solutions",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/blog",
+      "text": "Blog",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/search/",
+      "text": "Search",
+      "isExternal": false
+    },
+    {
+      "url": "https://train.medcerts.com/login/?_gl=1*7spgle*_gcl_au*MTUwOTYxNTg2MC4xNzE1OTI2MDgx*_ga*MTExMjY0MzMyNC4xNzE1OTI2MDgx*_ga_BS94HXSYND*MTcyMTYzMDU5Mi4yNzkuMC4xNzIxNjMwNTkyLjYwLjAuMA..",
+      "text": "Login",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/",
+      "text": "",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/programs/",
+      "text": "Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/",
+      "text": "Online Healthcare and Medical Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/phlebotomy-technician/",
+      "text": "Phlebotomy Technician",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/medical-assistant/",
+      "text": "Medical Assistant",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/surgical-technologist/",
+      "text": "Surgical Technologist",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/dental-assistant/",
+      "text": "Dental Assistant",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/medical-billing-specialist-online-training/",
+      "text": "Medical Billing Specialist",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/sterile-processing-technician/",
+      "text": "Sterile Processing Technician",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/",
+      "text": "View All Healthcare and Medical Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/it/",
+      "text": "Online Information Technology (IT) Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/it/it-network-technician-online-training/",
+      "text": "IT Network Technician",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/it/it-helpdesk-administrator-online-training/",
+      "text": "IT Helpdesk Administrator",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/it/it-security-specialist-online-training/",
+      "text": "IT Security Specialist",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/it/",
+      "text": "View All IT Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/professional-development/",
+      "text": "Online Professional Development Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/professional-development/project-management-essentials/",
+      "text": "Project Management Essentials",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/professional-development/microsoft-office-specialist/",
+      "text": "Microsoft Office Specialist",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/professional-development/",
+      "text": "View All Professional Development Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/",
+      "text": "Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/",
+      "text": "Online Healthcare Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/pttc-physical-therapy-technician-certification-1/",
+      "text": "Online PTTC Physical Therapy Technician Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/certified-phlebotomy-technician/",
+      "text": "Online CPT Certified Phlebotomy Technician Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/certified-billing-and-coding-specialist",
+      "text": "Online Certified Billing and Coding Specialist Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/ccma-certified-clinical-medical-assistant/",
+      "text": "Online CCMA Certified Clinical Medical Assistant Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/excpt-certified-pharmacy-technician/",
+      "text": "Online CPhT Certified Pharmacy Technician Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/",
+      "text": "View All Healthcare Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/",
+      "text": "Online IT Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/ccna-cisco-certified-network-associate/",
+      "text": "Online CCNA Cisco Certified Network Associate Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/aws-csaa/",
+      "text": "Online AWS CSAA Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/comptia-cloud-plus/",
+      "text": "CompTIA Cloud+ Certification",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/comptia-cysa/",
+      "text": "CompTIA CySA+ Certification",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/network-plus-comptia-certification/",
+      "text": "CompTIA Network+ Certification",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/",
+      "text": "View All IT Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/professional-development/",
+      "text": "Online Professional Development Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/professional-development/capm-certified-associate-in-project-management/",
+      "text": "Online CAPM Certified Associate in Project Management Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/professional-development/microsoft-office-specialist-mos/",
+      "text": "Online MOS Microsoft Office Specialist Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/professional-development/",
+      "text": "View All Professional Development Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/admissions",
+      "text": "Admissions",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/admissions",
+      "text": "Prospective Students",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/student-services",
+      "text": "Student Services",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/student-policies",
+      "text": "Student Policies",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/program-pricing",
+      "text": "Tuition",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/program-pricing",
+      "text": "Program Pricing",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/military-benefits",
+      "text": "Military Benefits",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/wioa-workforce-innovation-opportunity-act-funding",
+      "text": "WIOA Funding",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/army-credentialing-assistance",
+      "text": "Army CA",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/coast-guard-cool-credentialing-assistance-programs",
+      "text": "Coast Guard COOL Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/air-force-cool-credentialing-assistance-programs",
+      "text": "Air Force COOL Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/mycaa-approved-school-programs-courses",
+      "text": "MyCAA",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/instructional-design",
+      "text": "How We Teach",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/course-demos",
+      "text": "Demo a MedCerts Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/instructional-design",
+      "text": "Instructional Design",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/start/exam-prep/",
+      "text": "Exam Prep",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/help/",
+      "text": "Support & FAQs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/about/testimonials",
+      "text": "Testimonials",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/blog",
+      "text": "Blog",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/education-pathways/earn-college-credit",
+      "text": "Education Pathways",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/education-pathways/earn-college-credit",
+      "text": "Earn College Credit",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/education-pathways/certification-pathways",
+      "text": "Certification Pathways",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/#",
+      "text": "Request Info",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/student-application",
+      "text": "Apply",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/",
+      "text": "",
+      "isExternal": true
+    },
+    {
+      "url": "https://partners.medcerts.com/",
+      "text": "Partner Solutions",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/blog",
+      "text": "Blog",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/search/",
+      "text": "Search",
+      "isExternal": false
+    },
+    {
+      "url": "https://train.medcerts.com/login/?_gl=1*7spgle*_gcl_au*MTUwOTYxNTg2MC4xNzE1OTI2MDgx*_ga*MTExMjY0MzMyNC4xNzE1OTI2MDgx*_ga_BS94HXSYND*MTcyMTYzMDU5Mi4yNzkuMC4xNzIxNjMwNTkyLjYwLjAuMA..",
+      "text": "Login",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/#",
+      "text": "Request Info",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/student-application",
+      "text": "Apply",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/programs/",
+      "text": "Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/",
+      "text": "Online Healthcare and Medical Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/phlebotomy-technician/",
+      "text": "Phlebotomy Technician",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/medical-assistant/",
+      "text": "Medical Assistant",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/surgical-technologist/",
+      "text": "Surgical Technologist",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/dental-assistant/",
+      "text": "Dental Assistant",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/medical-billing-specialist-online-training/",
+      "text": "Medical Billing Specialist",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/sterile-processing-technician/",
+      "text": "Sterile Processing Technician",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/",
+      "text": "View All Healthcare and Medical Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/it/",
+      "text": "Online Information Technology (IT) Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/it/it-network-technician-online-training/",
+      "text": "IT Network Technician",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/it/it-helpdesk-administrator-online-training/",
+      "text": "IT Helpdesk Administrator",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/it/it-security-specialist-online-training/",
+      "text": "IT Security Specialist",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/it/",
+      "text": "View All IT Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/professional-development/",
+      "text": "Online Professional Development Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/professional-development/project-management-essentials/",
+      "text": "Project Management Essentials",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/professional-development/microsoft-office-specialist/",
+      "text": "Microsoft Office Specialist",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/professional-development/",
+      "text": "View All Professional Development Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/",
+      "text": "Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/",
+      "text": "Online Healthcare Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/pttc-physical-therapy-technician-certification-1/",
+      "text": "Online PTTC Physical Therapy Technician Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/certified-phlebotomy-technician/",
+      "text": "Online CPT Certified Phlebotomy Technician Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/certified-billing-and-coding-specialist",
+      "text": "Online Certified Billing and Coding Specialist Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/ccma-certified-clinical-medical-assistant/",
+      "text": "Online CCMA Certified Clinical Medical Assistant Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/excpt-certified-pharmacy-technician/",
+      "text": "Online CPhT Certified Pharmacy Technician Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/",
+      "text": "View All Healthcare Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/",
+      "text": "Online IT Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/ccna-cisco-certified-network-associate/",
+      "text": "Online CCNA Cisco Certified Network Associate Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/aws-csaa/",
+      "text": "Online AWS CSAA Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/comptia-cloud-plus/",
+      "text": "CompTIA Cloud+ Certification",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/comptia-cysa/",
+      "text": "CompTIA CySA+ Certification",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/network-plus-comptia-certification/",
+      "text": "CompTIA Network+ Certification",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/",
+      "text": "View All IT Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/professional-development/",
+      "text": "Online Professional Development Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/professional-development/capm-certified-associate-in-project-management/",
+      "text": "Online CAPM Certified Associate in Project Management Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/professional-development/microsoft-office-specialist-mos/",
+      "text": "Online MOS Microsoft Office Specialist Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/professional-development/",
+      "text": "View All Professional Development Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/admissions",
+      "text": "Admissions",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/admissions",
+      "text": "Prospective Students",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/student-services",
+      "text": "Student Services",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/student-policies",
+      "text": "Student Policies",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/program-pricing",
+      "text": "Tuition",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/program-pricing",
+      "text": "Program Pricing",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/military-benefits",
+      "text": "Military Benefits",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/wioa-workforce-innovation-opportunity-act-funding",
+      "text": "WIOA Funding",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/army-credentialing-assistance",
+      "text": "Army CA",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/coast-guard-cool-credentialing-assistance-programs",
+      "text": "Coast Guard COOL Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/air-force-cool-credentialing-assistance-programs",
+      "text": "Air Force COOL Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/mycaa-approved-school-programs-courses",
+      "text": "MyCAA",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/instructional-design",
+      "text": "How We Teach",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/course-demos",
+      "text": "Demo a MedCerts Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/instructional-design",
+      "text": "Instructional Design",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/start/exam-prep/",
+      "text": "Exam Prep",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/help/",
+      "text": "Support & FAQs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/about/testimonials",
+      "text": "Testimonials",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/blog",
+      "text": "Blog",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/education-pathways/earn-college-credit",
+      "text": "Education Pathways",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/education-pathways/earn-college-credit",
+      "text": "Earn College Credit",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/education-pathways/certification-pathways",
+      "text": "Certification Pathways",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare",
+      "text": "",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/certifications/it",
+      "text": "",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/certifications/professional-development",
+      "text": "",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/certified-billing-and-coding-specialist/",
+      "text": "CBCS\n\n\n\nCertified Billing and Coding Specialist",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/cehrs-certified-electronic-health-records-specialist-certification/",
+      "text": "CEHRS\n\n\n\nCertified Electronic Health Records Specialist",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/ccs-p-certified-coding-specialist-physician-based/",
+      "text": "CCS-P\n\n\n\nCertified Coding Specialist-Physician-based",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/ccma-certified-clinical-medical-assistant/",
+      "text": "CCMA\n\n\n\nCertified Clinical Medical Assistant Certification",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/amsp-apprentice-medical-scribe-professional/",
+      "text": "AMSP\n\n\n\nApprentice Medical Scribe Professional Certification",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/mental-health-technician-certification/",
+      "text": "MHTC\n\n\n\nMental Health Technician Certification",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/",
+      "text": "View All",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/cissp-information-systems-security-professional/",
+      "text": "CISSP\n\n\n\nInformation Systems Security Professional Certification",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/ccna-cisco-certified-network-associate/",
+      "text": "CCNA\n\n\n\nCisco Certified Network Associate Certification",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/aws-csaa/",
+      "text": "AWS CSAA\n\n\n\nAWS Certified Solutions Architect – Associate Certification",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/",
+      "text": "View All",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/professional-development/microsoft-office-specialist-mos/",
+      "text": "MOS\n\n\n\nMicrosoft Office Specialist Certification",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/professional-development/capm-certified-associate-in-project-management/",
+      "text": "CAPM\n\n\n\nCertified Associate in Project Management Certification",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/professional-development/",
+      "text": "View All",
+      "isExternal": true
+    },
+    {
+      "url": "https://mycaa.militaryonesource.mil/mycaa/",
+      "text": "MyCAA",
+      "isExternal": true
+    },
+    {
+      "url": "https://www.cool.osd.mil/army/index.html",
+      "text": "Army Credentialing Assistance",
+      "isExternal": true
+    },
+    {
+      "url": "https://www.cool.osd.mil/uscg/index.html",
+      "text": "Coast Guard COOL",
+      "isExternal": true
+    },
+    {
+      "url": "https://www.airuniversity.af.edu/Barnes/CCAF/Display/Article/3193599/air-force-credentialing-opportunities-online-afcool/",
+      "text": "Air Force COOL",
+      "isExternal": true
+    },
+    {
+      "url": "https://www.dol.gov/agencies/eta/wioa",
+      "text": "Workforce Funding (including WIOA)",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/instructional-design/",
+      "text": "instructional design",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts-cr.virtualadviser.com/",
+      "text": "",
+      "isExternal": true
+    },
+    {
+      "url": "https://www.trustpilot.com/review/medcerts.com",
+      "text": "<img width=\"69\" height=\"66\" decoding=\"async\" src=\"https://medcerts.com/wp-content/plugins/sd-medcerts-helper/assets/img/star-rating.svg\" alt=\"Star rating\" />",
+      "isExternal": true
+    },
+    {
+      "url": "https://www.trustpilot.com/review/medcerts.com",
+      "text": "<img width=\"69\" height=\"66\" decoding=\"async\" src=\"https://medcerts.com/wp-content/plugins/sd-medcerts-helper/assets/img/star-rating.svg\" alt=\"Star rating\" />",
+      "isExternal": true
+    },
+    {
+      "url": "https://www.trustpilot.com/review/medcerts.com",
+      "text": "<img width=\"69\" height=\"66\" decoding=\"async\" src=\"https://medcerts.com/wp-content/plugins/sd-medcerts-helper/assets/img/star-rating.svg\" alt=\"Star rating\" />",
+      "isExternal": true
+    },
+    {
+      "url": "https://www.trustpilot.com/review/medcerts.com",
+      "text": "<img width=\"69\" height=\"66\" decoding=\"async\" src=\"https://medcerts.com/wp-content/plugins/sd-medcerts-helper/assets/img/star-rating.svg\" alt=\"Star rating\" />",
+      "isExternal": true
+    },
+    {
+      "url": "https://www.trustpilot.com/review/medcerts.com",
+      "text": "<img width=\"39\" height=\"37\" decoding=\"async\" src=\"https://medcerts.com/wp-content/plugins/sd-medcerts-helper/assets/img/star-ratinglight.svg\" alt=\"Star rating half\" />",
+      "isExternal": true
+    },
+    {
+      "url": "https://www.trustpilot.com/review/medcerts.com?utm_medium=trustbox&utm_source=Horizontal",
+      "text": "Trustpilot",
+      "isExternal": true
+    },
+    {
+      "url": "https://www.trustpilot.com/",
+      "text": "Trustpilot",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/#",
+      "text": "Chat Online",
+      "isExternal": false
+    },
+    {
+      "url": "tel:800-734-1175",
+      "text": "800-734-1175",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/sample-page/",
+      "text": "Home",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/",
+      "text": "Programs",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/admissions",
+      "text": "Admissions",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/about/company",
+      "text": "About",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/",
+      "text": "Career Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/mycaa-approved-school-programs-courses/",
+      "text": "MyCAA",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/tuition/military-education-benefits/",
+      "text": "Military CA",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/tuition/medical-assistant-programs/",
+      "text": "MA Programs",
+      "isExternal": false
+    },
+    {
+      "url": "https://partners.medcerts.com/",
+      "text": "Partner Solutions",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/help/",
+      "text": "Support & FAQs",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/about/careers",
+      "text": "Careers",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/about/contact",
+      "text": "Contact",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/compliance/state-restrictions/",
+      "text": "State Restrictions",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.referral-factory.com/uVWUwR",
+      "text": "Refer a Friend",
+      "isExternal": true
+    },
+    {
+      "url": "https://www.facebook.com/MedCerts",
+      "text": "<img width=\"24\" height=\"24\" decoding=\"async\" class=\"gb-image gb-image-b62c6774\" src=\"https://medcerts.com/wp-content/uploads/2024/04/Facebook.svg\" alt=\"\" title=\"Facebook\"/>",
+      "isExternal": true
+    },
+    {
+      "url": "https://www.instagram.com/medcerts_/",
+      "text": "<img width=\"25\" height=\"25\" decoding=\"async\" class=\"gb-image gb-image-905a88ef\" src=\"https://medcerts.com/wp-content/uploads/2024/04/insta.svg\" alt=\"\" title=\"insta\"/>",
+      "isExternal": true
+    },
+    {
+      "url": "https://twitter.com/Med_Certs",
+      "text": "<img width=\"24\" height=\"24\" decoding=\"async\" class=\"gb-image gb-image-1eb06c9d\" src=\"https://medcerts.com/wp-content/uploads/2024/04/Twitter.svg\" alt=\"\" title=\"Twitter\"/>",
+      "isExternal": true
+    },
+    {
+      "url": "https://www.linkedin.com/company/medcerts",
+      "text": "<img width=\"24\" height=\"24\" decoding=\"async\" class=\"gb-image gb-image-b367a145\" src=\"https://medcerts.com/wp-content/uploads/2024/04/LinkedIn.svg\" alt=\"\" title=\"LinkedIn\"/>",
+      "isExternal": true
+    },
+    {
+      "url": "https://shop.medcerts.com/",
+      "text": "Shop MedCerts Merch",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/legal/terms",
+      "text": "Terms of Use",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/legal/privacy",
+      "text": "Privacy Policy",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/student-application",
+      "text": "",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/student-application",
+      "text": "Apply",
+      "isExternal": false
+    },
+    {
+      "url": "https://partners.medcerts.com/?_gl=1*foc4k9*_gcl_au*MTUwOTYxNTg2MC4xNzE1OTI2MDgx*_ga*MTExMjY0MzMyNC4xNzE1OTI2MDgx*_ga_BS94HXSYND*MTcxODYxNTY5NS4xMTguMS4xNzE4NjE4MDczLjM5LjAuMA..",
+      "text": "Partner Solutions",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/blog",
+      "text": "Blog",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/search",
+      "text": "Search",
+      "isExternal": false
+    },
+    {
+      "url": "https://train.medcerts.com/login/?_gl=1*sv28de*_gcl_au*MTUwOTYxNTg2MC4xNzE1OTI2MDgx*_ga*MTExMjY0MzMyNC4xNzE1OTI2MDgx*_ga_BS94HXSYND*MTcxODYxNTY5NS4xMTguMS4xNzE4NjE4MTU3LjE1LjAuMA..",
+      "text": "Login",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare",
+      "text": "View All Healthcare & Medical Programs",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/programs/it",
+      "text": "View All Information Technology (IT) Programs",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/programs/professional-development",
+      "text": "View All Professional Development Programs",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/phlebotomy-technician",
+      "text": "Phlebotomy Technician",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/healthcare/medical-assistant",
+      "text": "Medical Assistant",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/surgical-technologist",
+      "text": "Surgical Technologist",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/surgical-technologist",
+      "text": "",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/dental-assistant",
+      "text": "Dental Assistant",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/medical-billing-specialist/",
+      "text": "Medical Billing Specialist",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/sterile-processing-technician-2/",
+      "text": "Sterile Processing Technician",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/",
+      "text": "View All Healthcare and Medical Programs",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/programs/it/it-network-technician-online-training/",
+      "text": "IT Network Technician",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/it/it-helpdesk-administrator-online-training/",
+      "text": "IT Helpdesk Administrator",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/it/it-helpdesk-administrator-online-training/",
+      "text": "IT Security Specialist",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/it/",
+      "text": "View All IT Programs",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/programs/professional-development/project-management-essentials/",
+      "text": "Project Management Essentials",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/professional-development/microsoft-office-specialist/",
+      "text": "Microsoft Office Specialist",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/professional-development/",
+      "text": "View All Professional Development Programs",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/online-physical-therapy-technician-certification/",
+      "text": "Online PTTC Physical Therapy Technician Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/certified-phlebotomy-technician/",
+      "text": "Online CPT Certified Phlebotomy Technician Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/certified-billing-and-coding-specialist",
+      "text": "Online Certified Billing and Coding Specialist Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/programs/healthcare/surgical-technologist",
+      "text": "",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/certified-clinical-medical-assistant-certification/",
+      "text": "Online CCMA Certified Clinical Medical Assistant Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/online-cpht-certified-pharmacy-technician-certification-course/",
+      "text": "Online CPhT Certified Pharmacy Technician Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/healthcare/",
+      "text": "View All Healthcare Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/cisco-certified-network-associate-certification/",
+      "text": "Online CCNA Cisco Certified Network Associate Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/aws-certified-solutions-architect-associate-certification/",
+      "text": "Online AWS CSAA Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/comptia-cloud-certification/",
+      "text": "Online CompTIA Cloud+ Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/comptia-cysa-certification/",
+      "text": "Online CompTIA CySA+ Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/comptia-network-certification/",
+      "text": "Online CompTIA Cloud+ Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/it/",
+      "text": "View All IT Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/professional-development/capm-certified-associate-in-project-management/",
+      "text": "Online CAPM Certified Associate in Project Management Course",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/certifications/professional-development/microsoft-office-specialist-certification/",
+      "text": "Online MOS Microsoft Office Specialist Certification Course",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/certifications/professional-development/",
+      "text": "View All Professional Development Certifications",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/student-services/",
+      "text": "Student Services",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/student-policies/",
+      "text": "Student Policies",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/military-benefits/",
+      "text": "Military Benefits",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/tuition/program-pricing/",
+      "text": "Program Pricing",
+      "isExternal": true
+    },
+    {
+      "url": "https://medcerts.com/military-benefits",
+      "text": "Military Benefits",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/tuition/wioa-workforce-innovation-opportunity-act-funding",
+      "text": "WIOA Funding",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/tuition/army-credentialing-assistance",
+      "text": "Army CA",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/tuition/coast-guard-cool-credentialing-assistance-programs",
+      "text": "Coast Guard COOL Programs",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/tuition/air-force-cool-credentialing-assistance-programs",
+      "text": "Air Force COOL Programs",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/tuition/mycaa-approved-school-programs-courses",
+      "text": "MyCAA",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/tuition/course-demos",
+      "text": "Demo a MedCerts Course",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/instructional-design",
+      "text": "Instructional Design",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/start/exam-prep",
+      "text": "Exam Prep",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/help",
+      "text": "Support & FAQs",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/about/testimonials",
+      "text": "Testimonials",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/blog",
+      "text": "Blog",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/education-pathways/earn-college-credit",
+      "text": "Earn College Credit",
+      "isExternal": false
+    },
+    {
+      "url": "https://medcerts.com/education-pathways/certification-pathways",
+      "text": "Certification Pathways",
+      "isExternal": false
+    }
+  ],
+  "content": {
+    "titles": [
+      {
+        "level": 1,
+        "text": "Online Career Certifications"
+      },
+      {
+        "level": 3,
+        "text": "Online Healthcare & Medical Certification Courses"
+      },
+      {
+        "level": 3,
+        "text": "Online IT Certification Courses"
+      },
+      {
+        "level": 3,
+        "text": "Online Professional Development Certification Courses"
+      },
+      {
+        "level": 2,
+        "text": "Healthcare Certification Courses"
+      },
+      {
+        "level": 2,
+        "text": "IT Certification Courses"
+      },
+      {
+        "level": 2,
+        "text": "Professional Development Certification Courses"
+      },
+      {
+        "level": 2,
+        "text": "Selecting the Right Training Option"
+      },
+      {
+        "level": 2,
+        "text": "Program Comparisons"
+      },
+      {
+        "level": 2,
+        "text": "FAQs for MedCerts’ Online Healthcare & IT Certification Programs"
+      },
+      {
+        "level": 2,
+        "text": "Is Online Career Training Right For You?"
+      },
+      {
+        "level": 2,
+        "text": "This fun, online quiz takes just 3 minutes to complete and provides you with a personalized report to find out if short-term online career training is right for you. The report identifies your strengths and social style, plus the training and positions you’re best suited for."
+      },
+      {
+        "level": 2,
+        "text": "Loved by students"
+      },
+      {
+        "level": 3,
+        "text": "MedCerts Is a Miracle"
+      },
+      {
+        "level": 2,
+        "text": "“I am beyond excited to have found a program that not only helps further your education, but is also flexible enough to accommodate to your schedule. You don’t have to get your prerequisites out of the way and the program dives straight into the field you wish to build a career in.”"
+      },
+      {
+        "level": 2,
+        "text": "Shapri from Trustpilot."
+      },
+      {
+        "level": 2,
+        "text": "A better future starts here."
+      },
+      {
+        "level": 2,
+        "text": "A better future starts here."
+      }
+    ],
+    "paragraphs": [
+      "Is Short-Term Online Career Training Right for You?",
+      "MedCerts students exit their experience with a comprehensive, yet targeted education. Our online job certifications are considered dual or multi certification programs. Our career certifications will help you earn the credentials you need to start a new career and increase your earning potential.",
+      "MedCerts training programs are some of the most competitively price ways to start a new career.",
+      "This table is provided for reference only. Actual pricing may vary or change without notice. Pricing is based on an estimated full-cost tuition with fees for a Medical Assistant program or similar program before financial aid or other assistance. Data sampled from MedCerts, Oakland Community College, and Kaplan University.",
+      "The cost of MedCerts’ online certification training programs varies. While specific prices for each program are listed on their individual program pages, the pricing may range based on the program’s complexity and length. Entry-level programs could be around $2,000, whereas more advanced programs might be closer to $4,000.",
+      "Yes, MedCerts offers various payment options for their programs. These include paying in full at the time of enrollment, splitting payments over three months or extending payments over a year.",
+      "MedCerts supports several government grant programs, particularly for military personnel and their spouses. These include:",
+      "Generally, the programs are designed to be completed within a few months, with more advanced programs potentially taking longer. The exact duration depends on the specific program and the pace at which the student progresses.",
+      "MedCerts’ certification training programs are fully online and designed for remote learning, allowing students to progress at their own pace. The instructional design incorporates interactive elements, simulations, and expert instruction.",
+      "Yes, MedCerts includes exam fees and preparation materials in the program cost. Their courses are designed to prepare students to take and pass related certification exams. The programs integrate exam prep to align with certification objectives.",
+      "MedCerts’ online training programs stand out due to interactive and immersive learning experiences. Unlike traditional online courses that may rely heavily on video lectures and readings, MedCerts employs a variety of engaging instructional methods, including 3D animations and game-based learning.",
+      "Take The MedCerts Online Career Training Readiness Quiz",
+      "Over 1000 Student Reviews",
+      "Copyright 2025 MedCerts LLC. All rights reserved.",
+      "Terms of Use",
+      "Privacy Policy",
+      "Schedule an appointment with an Education Consultant.",
+      "Schedule an appointment with an Education Consultant.",
+      "Error: No Modal Form ID set for this page.",
+      "By submitting this form, you are also agreeing to receive marketing communications in the form of text, email and phone call."
+    ],
+    "lists": [
+      {
+        "type": "ul",
+        "text": "Partner SolutionsBlogSearch"
+      },
+      {
+        "type": "ul",
+        "text": "Programs\n\n\tOnline Healthcare and Medical Programs\n\tPhlebotomy Technician\n\tMedical Assistant\n\tSurgical Technologist\n\tDental Assistant\n\tMedical Billing Specialist\n\tSterile Processing Technician\n\tView All Healthcare and Medical Programs\n\tOnline Information Technology (IT) Programs\n\tIT Network Technician\n\tIT Helpdesk Administrator\n\tIT Security Specialist\n\tView All IT Programs\n\tOnline Professional Development Programs\n\tProject Management Essentials\n\tMicrosoft Office Specialist\n\tView All Professional Development Programs\n\n\nCertifications\n\n\tOnline Healthcare Certifications\n\tOnline PTTC Physical Therapy Technician Certification Course\n\tOnline CPT Certified Phlebotomy Technician Course\n\tOnline Certified Billing and Coding Specialist Certification Course\n\tOnline CCMA Certified Clinical Medical Assistant Course\n\tOnline CPhT Certified Pharmacy Technician Certification Course\n\tView All Healthcare Certifications\n\tOnline IT Certifications\n\tOnline CCNA Cisco Certified Network Associate Certification Course\n\tOnline AWS CSAA Certification Course\n\tCompTIA Cloud+ Certification\n\tCompTIA CySA+ Certification\n\tCompTIA Network+ Certification\n\tView All IT Certifications\n\tOnline Professional Development Certifications\n\tOnline CAPM Certified Associate in Project Management Course\n\tOnline MOS Microsoft Office Specialist Certification Course\n\tView All Professional Development Certifications\n\n\nAdmissions\n\n\tProspective Students\n\tStudent Services\n\tStudent Policies\n\tTuition\n\tProgram Pricing\n\tMilitary Benefits\n\tWIOA Funding\n\tArmy CA\n\tCoast Guard COOL Programs\n\tAir Force COOL Programs\n\tMyCAA\n\n\nHow We Teach\n\n\tDemo a MedCerts Course\n\tInstructional Design\n\tExam Prep\n\tSupport & FAQs\n\tTestimonials\n\tBlog\n\n\nEducation Pathways\n\n\tEarn College Credit\n\tCertification Pathways"
+      },
+      {
+        "type": "ul",
+        "text": "Online Healthcare and Medical Programs\n\tPhlebotomy Technician\n\tMedical Assistant\n\tSurgical Technologist\n\tDental Assistant\n\tMedical Billing Specialist\n\tSterile Processing Technician\n\tView All Healthcare and Medical Programs\n\tOnline Information Technology (IT) Programs\n\tIT Network Technician\n\tIT Helpdesk Administrator\n\tIT Security Specialist\n\tView All IT Programs\n\tOnline Professional Development Programs\n\tProject Management Essentials\n\tMicrosoft Office Specialist\n\tView All Professional Development Programs"
+      },
+      {
+        "type": "ul",
+        "text": "Online Healthcare Certifications\n\tOnline PTTC Physical Therapy Technician Certification Course\n\tOnline CPT Certified Phlebotomy Technician Course\n\tOnline Certified Billing and Coding Specialist Certification Course\n\tOnline CCMA Certified Clinical Medical Assistant Course\n\tOnline CPhT Certified Pharmacy Technician Certification Course\n\tView All Healthcare Certifications\n\tOnline IT Certifications\n\tOnline CCNA Cisco Certified Network Associate Certification Course\n\tOnline AWS CSAA Certification Course\n\tCompTIA Cloud+ Certification\n\tCompTIA CySA+ Certification\n\tCompTIA Network+ Certification\n\tView All IT Certifications\n\tOnline Professional Development Certifications\n\tOnline CAPM Certified Associate in Project Management Course\n\tOnline MOS Microsoft Office Specialist Certification Course\n\tView All Professional Development Certifications"
+      },
+      {
+        "type": "ul",
+        "text": "Prospective Students\n\tStudent Services\n\tStudent Policies\n\tTuition\n\tProgram Pricing\n\tMilitary Benefits\n\tWIOA Funding\n\tArmy CA\n\tCoast Guard COOL Programs\n\tAir Force COOL Programs\n\tMyCAA"
+      },
+      {
+        "type": "ul",
+        "text": "Demo a MedCerts Course\n\tInstructional Design\n\tExam Prep\n\tSupport & FAQs\n\tTestimonials\n\tBlog"
+      },
+      {
+        "type": "ul",
+        "text": "Earn College Credit\n\tCertification Pathways"
+      },
+      {
+        "type": "ul",
+        "text": "Partner SolutionsBlogSearch"
+      },
+      {
+        "type": "ul",
+        "text": "Programs\n\n\tOnline Healthcare and Medical Programs\n\tPhlebotomy Technician\n\tMedical Assistant\n\tSurgical Technologist\n\tDental Assistant\n\tMedical Billing Specialist\n\tSterile Processing Technician\n\tView All Healthcare and Medical Programs\n\tOnline Information Technology (IT) Programs\n\tIT Network Technician\n\tIT Helpdesk Administrator\n\tIT Security Specialist\n\tView All IT Programs\n\tOnline Professional Development Programs\n\tProject Management Essentials\n\tMicrosoft Office Specialist\n\tView All Professional Development Programs\n\n\nCertifications\n\n\tOnline Healthcare Certifications\n\tOnline PTTC Physical Therapy Technician Certification Course\n\tOnline CPT Certified Phlebotomy Technician Course\n\tOnline Certified Billing and Coding Specialist Certification Course\n\tOnline CCMA Certified Clinical Medical Assistant Course\n\tOnline CPhT Certified Pharmacy Technician Certification Course\n\tView All Healthcare Certifications\n\tOnline IT Certifications\n\tOnline CCNA Cisco Certified Network Associate Certification Course\n\tOnline AWS CSAA Certification Course\n\tCompTIA Cloud+ Certification\n\tCompTIA CySA+ Certification\n\tCompTIA Network+ Certification\n\tView All IT Certifications\n\tOnline Professional Development Certifications\n\tOnline CAPM Certified Associate in Project Management Course\n\tOnline MOS Microsoft Office Specialist Certification Course\n\tView All Professional Development Certifications\n\n\nAdmissions\n\n\tProspective Students\n\tStudent Services\n\tStudent Policies\n\tTuition\n\tProgram Pricing\n\tMilitary Benefits\n\tWIOA Funding\n\tArmy CA\n\tCoast Guard COOL Programs\n\tAir Force COOL Programs\n\tMyCAA\n\n\nHow We Teach\n\n\tDemo a MedCerts Course\n\tInstructional Design\n\tExam Prep\n\tSupport & FAQs\n\tTestimonials\n\tBlog\n\n\nEducation Pathways\n\n\tEarn College Credit\n\tCertification Pathways"
+      },
+      {
+        "type": "ul",
+        "text": "Online Healthcare and Medical Programs\n\tPhlebotomy Technician\n\tMedical Assistant\n\tSurgical Technologist\n\tDental Assistant\n\tMedical Billing Specialist\n\tSterile Processing Technician\n\tView All Healthcare and Medical Programs\n\tOnline Information Technology (IT) Programs\n\tIT Network Technician\n\tIT Helpdesk Administrator\n\tIT Security Specialist\n\tView All IT Programs\n\tOnline Professional Development Programs\n\tProject Management Essentials\n\tMicrosoft Office Specialist\n\tView All Professional Development Programs"
+      },
+      {
+        "type": "ul",
+        "text": "Online Healthcare Certifications\n\tOnline PTTC Physical Therapy Technician Certification Course\n\tOnline CPT Certified Phlebotomy Technician Course\n\tOnline Certified Billing and Coding Specialist Certification Course\n\tOnline CCMA Certified Clinical Medical Assistant Course\n\tOnline CPhT Certified Pharmacy Technician Certification Course\n\tView All Healthcare Certifications\n\tOnline IT Certifications\n\tOnline CCNA Cisco Certified Network Associate Certification Course\n\tOnline AWS CSAA Certification Course\n\tCompTIA Cloud+ Certification\n\tCompTIA CySA+ Certification\n\tCompTIA Network+ Certification\n\tView All IT Certifications\n\tOnline Professional Development Certifications\n\tOnline CAPM Certified Associate in Project Management Course\n\tOnline MOS Microsoft Office Specialist Certification Course\n\tView All Professional Development Certifications"
+      },
+      {
+        "type": "ul",
+        "text": "Prospective Students\n\tStudent Services\n\tStudent Policies\n\tTuition\n\tProgram Pricing\n\tMilitary Benefits\n\tWIOA Funding\n\tArmy CA\n\tCoast Guard COOL Programs\n\tAir Force COOL Programs\n\tMyCAA"
+      },
+      {
+        "type": "ul",
+        "text": "Demo a MedCerts Course\n\tInstructional Design\n\tExam Prep\n\tSupport & FAQs\n\tTestimonials\n\tBlog"
+      },
+      {
+        "type": "ul",
+        "text": "Earn College Credit\n\tCertification Pathways"
+      },
+      {
+        "type": "ul",
+        "text": "MyCAA\n\n\n\nArmy Credentialing Assistance\n\n\n\nCoast Guard COOL\n\n\n\nAir Force COOL\n\n\n\nWorkforce Funding (including WIOA)"
+      },
+      {
+        "type": "ul",
+        "text": "Home\nPrograms\nAdmissions\nAbout\nCareer Certifications\nMyCAA\nMilitary CA\nMA Programs\nPartner Solutions\nSupport & FAQs\nCareers\nContact\nState Restrictions\nRefer a Friend"
+      }
+    ]
+  }
+}
