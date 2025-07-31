@@ -4,9 +4,15 @@
   "description": "A simple scraping tool built in Node.js",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "build": "docker build -t geturlinfo .",
-    "run": "docker run -t geturlinfo"
+    "dev:front": "nodemon index.js",
+    "build:front": "docker build -t geturlinfo .",
+    "run": "docker run -t geturlinfo",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon index.js",
+    "client": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tail": "npx tailwindcss -i ./src/input.css -o ./src/output.css"
   },
   "author": "",
   "license": "ISC",
@@ -18,9 +24,10 @@
     "express": "^4.21.0",
     "express-router": "^0.0.1",
     "inquirer": "^11.0.2",
+    "lucide-react": "^0.534.0",
     "path": "^0.12.7",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "router": "^2.2.0",
     "scrape-it": "^6.1.2",
     "supertest": "^7.0.0",
@@ -28,14 +35,20 @@
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
+    "@tailwindcss/vite": "^4.1.11",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.2.0",
     "dotencr": "^1.0.3",
     "dotenv": "^16.4.7",
     "expect": "^29.7.0",
     "jest": "^29.7.0",
     "jest-mock": "^29.7.0",
     "nodemon": "^3.1.7",
+    "postcss": "^8.5.6",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1",
+    "tailwindcss": "^4.1.11",
     "vite": "^7.0.6"
   }
 }

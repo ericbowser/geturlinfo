@@ -1,0 +1,11 @@
+your-project/
+├── server.js (your existing backend)
+├── getUrlInfo.js (your existing scraper)
+├── package.json
+├── vite.config.js
+├── index.html
+└── src/
+    ├── main.jsx
+    ├── App.jsx
+    ├── WebScraperGallery.jsx
+    └── index.css
