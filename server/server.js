@@ -1,6 +1,6 @@
 ﻿const express = require('express');
 const router = express.Router();
-const getUrlInfo = require('./getUrlInfo');
+const getUrlInfo = require('../api/getUrlInfo');
 const cors = require('cors');
 
 const bodyParser = require('body-parser');

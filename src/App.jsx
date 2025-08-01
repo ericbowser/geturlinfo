@@ -1,4 +1,4 @@
-import WebScraperGallery from './components/WebScraperUI'
+import WebScraperGallery from './components/WebScraperUI';
 
 function App() {
   return <WebScraperGallery />
